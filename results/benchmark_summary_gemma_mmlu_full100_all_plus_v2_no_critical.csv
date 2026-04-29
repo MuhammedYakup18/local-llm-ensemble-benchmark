@@ -1,0 +1,23 @@
+﻿system,accuracy,avg_extra_time_sec,total_questions
+Coarse Pattern-Best Router,69.0,0.0,100
+Judge Always,68.0,17.31,100
+Gemma Self-Consistency 3x,68.0,35.2,100
+Judge on Disagreement,67.0,11.51,100
+Gemma Final Arbiter,66.0,11.24,100
+TriCheck Meta Decision,65.0,0.0,100
+Peer Review + Gemma Final,65.0,10.83,100
+Peer Review Revision,64.0,20.05,100
+gemma3:12b,63.0,3.84,100
+Reasoning Judge,63.0,15.25,100
+Gemma-Centered Sequential Review,62.0,33.59,100
+Adaptive Debate Stop,61.0,1.05,100
+Gemma Final Arbiter v2,60.0,16.75,100
+Confidence Weighted Vote,59.0,0.0,100
+Debate + Gemma Final,59.0,11.71,100
+Gemma Error-Check Revision,59.0,9.73,100
+Debate Revision,59.0,28.07,100
+Majority Vote,58.0,0.0,100
+Option-wise Verifier,58.0,34.08,100
+mistral-nemo:12b,58.0,7.47,100
+llama3.1:8b,56.0,4.62,100
+Judge Always v2,54.0,9.79,100

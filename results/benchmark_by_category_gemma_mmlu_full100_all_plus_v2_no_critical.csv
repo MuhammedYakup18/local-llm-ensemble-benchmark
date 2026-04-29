@@ -1,0 +1,925 @@
+﻿category,system,accuracy,question_count
+anatomy,gemma3:12b,100.0,1
+anatomy,llama3.1:8b,0.0,1
+anatomy,mistral-nemo:12b,100.0,1
+anatomy,Majority Vote,100.0,1
+anatomy,Confidence Weighted Vote,100.0,1
+anatomy,Judge on Disagreement,100.0,1
+anatomy,Judge Always,100.0,1
+anatomy,Judge Always v2,100.0,1
+anatomy,Reasoning Judge,100.0,1
+anatomy,Peer Review Revision,100.0,1
+anatomy,Debate Revision,100.0,1
+anatomy,Gemma Final Arbiter,100.0,1
+anatomy,Gemma Final Arbiter v2,100.0,1
+anatomy,Gemma Error-Check Revision,0.0,1
+anatomy,Peer Review + Gemma Final,100.0,1
+anatomy,Debate + Gemma Final,0.0,1
+anatomy,Option-wise Verifier,0.0,1
+anatomy,Adaptive Debate Stop,100.0,1
+anatomy,Gemma Self-Consistency 3x,100.0,1
+anatomy,Gemma-Centered Sequential Review,100.0,1
+anatomy,Coarse Pattern-Best Router,100.0,1
+anatomy,TriCheck Meta Decision,100.0,1
+business_ethics,gemma3:12b,100.0,2
+business_ethics,llama3.1:8b,100.0,2
+business_ethics,mistral-nemo:12b,100.0,2
+business_ethics,Majority Vote,100.0,2
+business_ethics,Confidence Weighted Vote,100.0,2
+business_ethics,Judge on Disagreement,100.0,2
+business_ethics,Judge Always,100.0,2
+business_ethics,Judge Always v2,100.0,2
+business_ethics,Reasoning Judge,100.0,2
+business_ethics,Peer Review Revision,100.0,2
+business_ethics,Debate Revision,100.0,2
+business_ethics,Gemma Final Arbiter,100.0,2
+business_ethics,Gemma Final Arbiter v2,100.0,2
+business_ethics,Gemma Error-Check Revision,100.0,2
+business_ethics,Peer Review + Gemma Final,100.0,2
+business_ethics,Debate + Gemma Final,100.0,2
+business_ethics,Option-wise Verifier,100.0,2
+business_ethics,Adaptive Debate Stop,100.0,2
+business_ethics,Gemma Self-Consistency 3x,100.0,2
+business_ethics,Gemma-Centered Sequential Review,100.0,2
+business_ethics,Coarse Pattern-Best Router,100.0,2
+business_ethics,TriCheck Meta Decision,100.0,2
+clinical_knowledge,gemma3:12b,75.0,4
+clinical_knowledge,llama3.1:8b,50.0,4
+clinical_knowledge,mistral-nemo:12b,100.0,4
+clinical_knowledge,Majority Vote,75.0,4
+clinical_knowledge,Confidence Weighted Vote,75.0,4
+clinical_knowledge,Judge on Disagreement,100.0,4
+clinical_knowledge,Judge Always,100.0,4
+clinical_knowledge,Judge Always v2,50.0,4
+clinical_knowledge,Reasoning Judge,75.0,4
+clinical_knowledge,Peer Review Revision,100.0,4
+clinical_knowledge,Debate Revision,75.0,4
+clinical_knowledge,Gemma Final Arbiter,100.0,4
+clinical_knowledge,Gemma Final Arbiter v2,75.0,4
+clinical_knowledge,Gemma Error-Check Revision,75.0,4
+clinical_knowledge,Peer Review + Gemma Final,100.0,4
+clinical_knowledge,Debate + Gemma Final,75.0,4
+clinical_knowledge,Option-wise Verifier,75.0,4
+clinical_knowledge,Adaptive Debate Stop,75.0,4
+clinical_knowledge,Gemma Self-Consistency 3x,75.0,4
+clinical_knowledge,Gemma-Centered Sequential Review,75.0,4
+clinical_knowledge,Coarse Pattern-Best Router,100.0,4
+clinical_knowledge,TriCheck Meta Decision,75.0,4
+college_mathematics,gemma3:12b,50.0,2
+college_mathematics,llama3.1:8b,50.0,2
+college_mathematics,mistral-nemo:12b,50.0,2
+college_mathematics,Majority Vote,50.0,2
+college_mathematics,Confidence Weighted Vote,50.0,2
+college_mathematics,Judge on Disagreement,50.0,2
+college_mathematics,Judge Always,50.0,2
+college_mathematics,Judge Always v2,50.0,2
+college_mathematics,Reasoning Judge,50.0,2
+college_mathematics,Peer Review Revision,100.0,2
+college_mathematics,Debate Revision,50.0,2
+college_mathematics,Gemma Final Arbiter,50.0,2
+college_mathematics,Gemma Final Arbiter v2,0.0,2
+college_mathematics,Gemma Error-Check Revision,50.0,2
+college_mathematics,Peer Review + Gemma Final,100.0,2
+college_mathematics,Debate + Gemma Final,50.0,2
+college_mathematics,Option-wise Verifier,0.0,2
+college_mathematics,Adaptive Debate Stop,50.0,2
+college_mathematics,Gemma Self-Consistency 3x,50.0,2
+college_mathematics,Gemma-Centered Sequential Review,50.0,2
+college_mathematics,Coarse Pattern-Best Router,50.0,2
+college_mathematics,TriCheck Meta Decision,50.0,2
+college_medicine,gemma3:12b,50.0,2
+college_medicine,llama3.1:8b,50.0,2
+college_medicine,mistral-nemo:12b,50.0,2
+college_medicine,Majority Vote,50.0,2
+college_medicine,Confidence Weighted Vote,50.0,2
+college_medicine,Judge on Disagreement,50.0,2
+college_medicine,Judge Always,50.0,2
+college_medicine,Judge Always v2,50.0,2
+college_medicine,Reasoning Judge,50.0,2
+college_medicine,Peer Review Revision,50.0,2
+college_medicine,Debate Revision,50.0,2
+college_medicine,Gemma Final Arbiter,50.0,2
+college_medicine,Gemma Final Arbiter v2,50.0,2
+college_medicine,Gemma Error-Check Revision,50.0,2
+college_medicine,Peer Review + Gemma Final,50.0,2
+college_medicine,Debate + Gemma Final,50.0,2
+college_medicine,Option-wise Verifier,50.0,2
+college_medicine,Adaptive Debate Stop,50.0,2
+college_medicine,Gemma Self-Consistency 3x,50.0,2
+college_medicine,Gemma-Centered Sequential Review,50.0,2
+college_medicine,Coarse Pattern-Best Router,50.0,2
+college_medicine,TriCheck Meta Decision,50.0,2
+college_physics,gemma3:12b,100.0,1
+college_physics,llama3.1:8b,0.0,1
+college_physics,mistral-nemo:12b,100.0,1
+college_physics,Majority Vote,100.0,1
+college_physics,Confidence Weighted Vote,100.0,1
+college_physics,Judge on Disagreement,100.0,1
+college_physics,Judge Always,100.0,1
+college_physics,Judge Always v2,100.0,1
+college_physics,Reasoning Judge,100.0,1
+college_physics,Peer Review Revision,100.0,1
+college_physics,Debate Revision,100.0,1
+college_physics,Gemma Final Arbiter,100.0,1
+college_physics,Gemma Final Arbiter v2,100.0,1
+college_physics,Gemma Error-Check Revision,100.0,1
+college_physics,Peer Review + Gemma Final,100.0,1
+college_physics,Debate + Gemma Final,100.0,1
+college_physics,Option-wise Verifier,0.0,1
+college_physics,Adaptive Debate Stop,100.0,1
+college_physics,Gemma Self-Consistency 3x,100.0,1
+college_physics,Gemma-Centered Sequential Review,100.0,1
+college_physics,Coarse Pattern-Best Router,100.0,1
+college_physics,TriCheck Meta Decision,100.0,1
+computer_security,gemma3:12b,100.0,2
+computer_security,llama3.1:8b,100.0,2
+computer_security,mistral-nemo:12b,100.0,2
+computer_security,Majority Vote,100.0,2
+computer_security,Confidence Weighted Vote,100.0,2
+computer_security,Judge on Disagreement,100.0,2
+computer_security,Judge Always,100.0,2
+computer_security,Judge Always v2,100.0,2
+computer_security,Reasoning Judge,100.0,2
+computer_security,Peer Review Revision,100.0,2
+computer_security,Debate Revision,100.0,2
+computer_security,Gemma Final Arbiter,100.0,2
+computer_security,Gemma Final Arbiter v2,100.0,2
+computer_security,Gemma Error-Check Revision,100.0,2
+computer_security,Peer Review + Gemma Final,100.0,2
+computer_security,Debate + Gemma Final,100.0,2
+computer_security,Option-wise Verifier,100.0,2
+computer_security,Adaptive Debate Stop,100.0,2
+computer_security,Gemma Self-Consistency 3x,100.0,2
+computer_security,Gemma-Centered Sequential Review,100.0,2
+computer_security,Coarse Pattern-Best Router,100.0,2
+computer_security,TriCheck Meta Decision,100.0,2
+conceptual_physics,gemma3:12b,75.0,4
+conceptual_physics,llama3.1:8b,100.0,4
+conceptual_physics,mistral-nemo:12b,75.0,4
+conceptual_physics,Majority Vote,75.0,4
+conceptual_physics,Confidence Weighted Vote,75.0,4
+conceptual_physics,Judge on Disagreement,75.0,4
+conceptual_physics,Judge Always,75.0,4
+conceptual_physics,Judge Always v2,50.0,4
+conceptual_physics,Reasoning Judge,75.0,4
+conceptual_physics,Peer Review Revision,75.0,4
+conceptual_physics,Debate Revision,75.0,4
+conceptual_physics,Gemma Final Arbiter,75.0,4
+conceptual_physics,Gemma Final Arbiter v2,75.0,4
+conceptual_physics,Gemma Error-Check Revision,75.0,4
+conceptual_physics,Peer Review + Gemma Final,75.0,4
+conceptual_physics,Debate + Gemma Final,75.0,4
+conceptual_physics,Option-wise Verifier,75.0,4
+conceptual_physics,Adaptive Debate Stop,75.0,4
+conceptual_physics,Gemma Self-Consistency 3x,75.0,4
+conceptual_physics,Gemma-Centered Sequential Review,75.0,4
+conceptual_physics,Coarse Pattern-Best Router,75.0,4
+conceptual_physics,TriCheck Meta Decision,75.0,4
+econometrics,gemma3:12b,0.0,1
+econometrics,llama3.1:8b,100.0,1
+econometrics,mistral-nemo:12b,100.0,1
+econometrics,Majority Vote,100.0,1
+econometrics,Confidence Weighted Vote,100.0,1
+econometrics,Judge on Disagreement,100.0,1
+econometrics,Judge Always,100.0,1
+econometrics,Judge Always v2,0.0,1
+econometrics,Reasoning Judge,100.0,1
+econometrics,Peer Review Revision,100.0,1
+econometrics,Debate Revision,0.0,1
+econometrics,Gemma Final Arbiter,100.0,1
+econometrics,Gemma Final Arbiter v2,100.0,1
+econometrics,Gemma Error-Check Revision,100.0,1
+econometrics,Peer Review + Gemma Final,100.0,1
+econometrics,Debate + Gemma Final,0.0,1
+econometrics,Option-wise Verifier,0.0,1
+econometrics,Adaptive Debate Stop,100.0,1
+econometrics,Gemma Self-Consistency 3x,100.0,1
+econometrics,Gemma-Centered Sequential Review,100.0,1
+econometrics,Coarse Pattern-Best Router,100.0,1
+econometrics,TriCheck Meta Decision,100.0,1
+electrical_engineering,gemma3:12b,0.0,1
+electrical_engineering,llama3.1:8b,100.0,1
+electrical_engineering,mistral-nemo:12b,100.0,1
+electrical_engineering,Majority Vote,100.0,1
+electrical_engineering,Confidence Weighted Vote,100.0,1
+electrical_engineering,Judge on Disagreement,100.0,1
+electrical_engineering,Judge Always,100.0,1
+electrical_engineering,Judge Always v2,0.0,1
+electrical_engineering,Reasoning Judge,100.0,1
+electrical_engineering,Peer Review Revision,100.0,1
+electrical_engineering,Debate Revision,100.0,1
+electrical_engineering,Gemma Final Arbiter,0.0,1
+electrical_engineering,Gemma Final Arbiter v2,100.0,1
+electrical_engineering,Gemma Error-Check Revision,0.0,1
+electrical_engineering,Peer Review + Gemma Final,0.0,1
+electrical_engineering,Debate + Gemma Final,100.0,1
+electrical_engineering,Option-wise Verifier,0.0,1
+electrical_engineering,Adaptive Debate Stop,100.0,1
+electrical_engineering,Gemma Self-Consistency 3x,0.0,1
+electrical_engineering,Gemma-Centered Sequential Review,0.0,1
+electrical_engineering,Coarse Pattern-Best Router,100.0,1
+electrical_engineering,TriCheck Meta Decision,100.0,1
+elementary_mathematics,gemma3:12b,100.0,1
+elementary_mathematics,llama3.1:8b,0.0,1
+elementary_mathematics,mistral-nemo:12b,0.0,1
+elementary_mathematics,Majority Vote,0.0,1
+elementary_mathematics,Confidence Weighted Vote,0.0,1
+elementary_mathematics,Judge on Disagreement,100.0,1
+elementary_mathematics,Judge Always,100.0,1
+elementary_mathematics,Judge Always v2,100.0,1
+elementary_mathematics,Reasoning Judge,0.0,1
+elementary_mathematics,Peer Review Revision,0.0,1
+elementary_mathematics,Debate Revision,0.0,1
+elementary_mathematics,Gemma Final Arbiter,100.0,1
+elementary_mathematics,Gemma Final Arbiter v2,100.0,1
+elementary_mathematics,Gemma Error-Check Revision,100.0,1
+elementary_mathematics,Peer Review + Gemma Final,100.0,1
+elementary_mathematics,Debate + Gemma Final,0.0,1
+elementary_mathematics,Option-wise Verifier,100.0,1
+elementary_mathematics,Adaptive Debate Stop,0.0,1
+elementary_mathematics,Gemma Self-Consistency 3x,100.0,1
+elementary_mathematics,Gemma-Centered Sequential Review,0.0,1
+elementary_mathematics,Coarse Pattern-Best Router,100.0,1
+elementary_mathematics,TriCheck Meta Decision,0.0,1
+formal_logic,gemma3:12b,0.0,1
+formal_logic,llama3.1:8b,0.0,1
+formal_logic,mistral-nemo:12b,0.0,1
+formal_logic,Majority Vote,0.0,1
+formal_logic,Confidence Weighted Vote,0.0,1
+formal_logic,Judge on Disagreement,100.0,1
+formal_logic,Judge Always,0.0,1
+formal_logic,Judge Always v2,0.0,1
+formal_logic,Reasoning Judge,0.0,1
+formal_logic,Peer Review Revision,100.0,1
+formal_logic,Debate Revision,0.0,1
+formal_logic,Gemma Final Arbiter,0.0,1
+formal_logic,Gemma Final Arbiter v2,0.0,1
+formal_logic,Gemma Error-Check Revision,100.0,1
+formal_logic,Peer Review + Gemma Final,100.0,1
+formal_logic,Debate + Gemma Final,0.0,1
+formal_logic,Option-wise Verifier,0.0,1
+formal_logic,Adaptive Debate Stop,0.0,1
+formal_logic,Gemma Self-Consistency 3x,0.0,1
+formal_logic,Gemma-Centered Sequential Review,0.0,1
+formal_logic,Coarse Pattern-Best Router,0.0,1
+formal_logic,TriCheck Meta Decision,0.0,1
+global_facts,gemma3:12b,0.0,2
+global_facts,llama3.1:8b,50.0,2
+global_facts,mistral-nemo:12b,50.0,2
+global_facts,Majority Vote,50.0,2
+global_facts,Confidence Weighted Vote,50.0,2
+global_facts,Judge on Disagreement,0.0,2
+global_facts,Judge Always,0.0,2
+global_facts,Judge Always v2,0.0,2
+global_facts,Reasoning Judge,50.0,2
+global_facts,Peer Review Revision,50.0,2
+global_facts,Debate Revision,50.0,2
+global_facts,Gemma Final Arbiter,50.0,2
+global_facts,Gemma Final Arbiter v2,50.0,2
+global_facts,Gemma Error-Check Revision,50.0,2
+global_facts,Peer Review + Gemma Final,50.0,2
+global_facts,Debate + Gemma Final,50.0,2
+global_facts,Option-wise Verifier,50.0,2
+global_facts,Adaptive Debate Stop,50.0,2
+global_facts,Gemma Self-Consistency 3x,0.0,2
+global_facts,Gemma-Centered Sequential Review,100.0,2
+global_facts,Coarse Pattern-Best Router,50.0,2
+global_facts,TriCheck Meta Decision,50.0,2
+high_school_chemistry,gemma3:12b,0.0,1
+high_school_chemistry,llama3.1:8b,0.0,1
+high_school_chemistry,mistral-nemo:12b,0.0,1
+high_school_chemistry,Majority Vote,0.0,1
+high_school_chemistry,Confidence Weighted Vote,0.0,1
+high_school_chemistry,Judge on Disagreement,100.0,1
+high_school_chemistry,Judge Always,100.0,1
+high_school_chemistry,Judge Always v2,0.0,1
+high_school_chemistry,Reasoning Judge,0.0,1
+high_school_chemistry,Peer Review Revision,0.0,1
+high_school_chemistry,Debate Revision,0.0,1
+high_school_chemistry,Gemma Final Arbiter,0.0,1
+high_school_chemistry,Gemma Final Arbiter v2,0.0,1
+high_school_chemistry,Gemma Error-Check Revision,0.0,1
+high_school_chemistry,Peer Review + Gemma Final,0.0,1
+high_school_chemistry,Debate + Gemma Final,0.0,1
+high_school_chemistry,Option-wise Verifier,0.0,1
+high_school_chemistry,Adaptive Debate Stop,0.0,1
+high_school_chemistry,Gemma Self-Consistency 3x,100.0,1
+high_school_chemistry,Gemma-Centered Sequential Review,0.0,1
+high_school_chemistry,Coarse Pattern-Best Router,100.0,1
+high_school_chemistry,TriCheck Meta Decision,0.0,1
+high_school_computer_science,gemma3:12b,0.0,1
+high_school_computer_science,llama3.1:8b,0.0,1
+high_school_computer_science,mistral-nemo:12b,100.0,1
+high_school_computer_science,Majority Vote,0.0,1
+high_school_computer_science,Confidence Weighted Vote,0.0,1
+high_school_computer_science,Judge on Disagreement,0.0,1
+high_school_computer_science,Judge Always,0.0,1
+high_school_computer_science,Judge Always v2,0.0,1
+high_school_computer_science,Reasoning Judge,0.0,1
+high_school_computer_science,Peer Review Revision,0.0,1
+high_school_computer_science,Debate Revision,0.0,1
+high_school_computer_science,Gemma Final Arbiter,0.0,1
+high_school_computer_science,Gemma Final Arbiter v2,0.0,1
+high_school_computer_science,Gemma Error-Check Revision,0.0,1
+high_school_computer_science,Peer Review + Gemma Final,0.0,1
+high_school_computer_science,Debate + Gemma Final,0.0,1
+high_school_computer_science,Option-wise Verifier,100.0,1
+high_school_computer_science,Adaptive Debate Stop,0.0,1
+high_school_computer_science,Gemma Self-Consistency 3x,0.0,1
+high_school_computer_science,Gemma-Centered Sequential Review,0.0,1
+high_school_computer_science,Coarse Pattern-Best Router,0.0,1
+high_school_computer_science,TriCheck Meta Decision,0.0,1
+high_school_european_history,gemma3:12b,100.0,1
+high_school_european_history,llama3.1:8b,100.0,1
+high_school_european_history,mistral-nemo:12b,100.0,1
+high_school_european_history,Majority Vote,100.0,1
+high_school_european_history,Confidence Weighted Vote,100.0,1
+high_school_european_history,Judge on Disagreement,100.0,1
+high_school_european_history,Judge Always,100.0,1
+high_school_european_history,Judge Always v2,100.0,1
+high_school_european_history,Reasoning Judge,100.0,1
+high_school_european_history,Peer Review Revision,100.0,1
+high_school_european_history,Debate Revision,100.0,1
+high_school_european_history,Gemma Final Arbiter,100.0,1
+high_school_european_history,Gemma Final Arbiter v2,100.0,1
+high_school_european_history,Gemma Error-Check Revision,100.0,1
+high_school_european_history,Peer Review + Gemma Final,100.0,1
+high_school_european_history,Debate + Gemma Final,100.0,1
+high_school_european_history,Option-wise Verifier,100.0,1
+high_school_european_history,Adaptive Debate Stop,100.0,1
+high_school_european_history,Gemma Self-Consistency 3x,100.0,1
+high_school_european_history,Gemma-Centered Sequential Review,100.0,1
+high_school_european_history,Coarse Pattern-Best Router,100.0,1
+high_school_european_history,TriCheck Meta Decision,100.0,1
+high_school_geography,gemma3:12b,33.33,3
+high_school_geography,llama3.1:8b,33.33,3
+high_school_geography,mistral-nemo:12b,33.33,3
+high_school_geography,Majority Vote,33.33,3
+high_school_geography,Confidence Weighted Vote,33.33,3
+high_school_geography,Judge on Disagreement,33.33,3
+high_school_geography,Judge Always,33.33,3
+high_school_geography,Judge Always v2,66.67,3
+high_school_geography,Reasoning Judge,33.33,3
+high_school_geography,Peer Review Revision,33.33,3
+high_school_geography,Debate Revision,33.33,3
+high_school_geography,Gemma Final Arbiter,33.33,3
+high_school_geography,Gemma Final Arbiter v2,33.33,3
+high_school_geography,Gemma Error-Check Revision,33.33,3
+high_school_geography,Peer Review + Gemma Final,33.33,3
+high_school_geography,Debate + Gemma Final,33.33,3
+high_school_geography,Option-wise Verifier,33.33,3
+high_school_geography,Adaptive Debate Stop,33.33,3
+high_school_geography,Gemma Self-Consistency 3x,33.33,3
+high_school_geography,Gemma-Centered Sequential Review,33.33,3
+high_school_geography,Coarse Pattern-Best Router,33.33,3
+high_school_geography,TriCheck Meta Decision,33.33,3
+high_school_government_and_politics,gemma3:12b,100.0,4
+high_school_government_and_politics,llama3.1:8b,25.0,4
+high_school_government_and_politics,mistral-nemo:12b,50.0,4
+high_school_government_and_politics,Majority Vote,50.0,4
+high_school_government_and_politics,Confidence Weighted Vote,50.0,4
+high_school_government_and_politics,Judge on Disagreement,100.0,4
+high_school_government_and_politics,Judge Always,100.0,4
+high_school_government_and_politics,Judge Always v2,75.0,4
+high_school_government_and_politics,Reasoning Judge,75.0,4
+high_school_government_and_politics,Peer Review Revision,75.0,4
+high_school_government_and_politics,Debate Revision,75.0,4
+high_school_government_and_politics,Gemma Final Arbiter,100.0,4
+high_school_government_and_politics,Gemma Final Arbiter v2,75.0,4
+high_school_government_and_politics,Gemma Error-Check Revision,50.0,4
+high_school_government_and_politics,Peer Review + Gemma Final,50.0,4
+high_school_government_and_politics,Debate + Gemma Final,75.0,4
+high_school_government_and_politics,Option-wise Verifier,100.0,4
+high_school_government_and_politics,Adaptive Debate Stop,75.0,4
+high_school_government_and_politics,Gemma Self-Consistency 3x,100.0,4
+high_school_government_and_politics,Gemma-Centered Sequential Review,100.0,4
+high_school_government_and_politics,Coarse Pattern-Best Router,100.0,4
+high_school_government_and_politics,TriCheck Meta Decision,100.0,4
+high_school_macroeconomics,gemma3:12b,100.0,1
+high_school_macroeconomics,llama3.1:8b,100.0,1
+high_school_macroeconomics,mistral-nemo:12b,100.0,1
+high_school_macroeconomics,Majority Vote,100.0,1
+high_school_macroeconomics,Confidence Weighted Vote,100.0,1
+high_school_macroeconomics,Judge on Disagreement,100.0,1
+high_school_macroeconomics,Judge Always,100.0,1
+high_school_macroeconomics,Judge Always v2,100.0,1
+high_school_macroeconomics,Reasoning Judge,100.0,1
+high_school_macroeconomics,Peer Review Revision,100.0,1
+high_school_macroeconomics,Debate Revision,100.0,1
+high_school_macroeconomics,Gemma Final Arbiter,100.0,1
+high_school_macroeconomics,Gemma Final Arbiter v2,100.0,1
+high_school_macroeconomics,Gemma Error-Check Revision,100.0,1
+high_school_macroeconomics,Peer Review + Gemma Final,100.0,1
+high_school_macroeconomics,Debate + Gemma Final,100.0,1
+high_school_macroeconomics,Option-wise Verifier,100.0,1
+high_school_macroeconomics,Adaptive Debate Stop,100.0,1
+high_school_macroeconomics,Gemma Self-Consistency 3x,100.0,1
+high_school_macroeconomics,Gemma-Centered Sequential Review,100.0,1
+high_school_macroeconomics,Coarse Pattern-Best Router,100.0,1
+high_school_macroeconomics,TriCheck Meta Decision,100.0,1
+high_school_mathematics,gemma3:12b,100.0,2
+high_school_mathematics,llama3.1:8b,100.0,2
+high_school_mathematics,mistral-nemo:12b,50.0,2
+high_school_mathematics,Majority Vote,100.0,2
+high_school_mathematics,Confidence Weighted Vote,100.0,2
+high_school_mathematics,Judge on Disagreement,100.0,2
+high_school_mathematics,Judge Always,100.0,2
+high_school_mathematics,Judge Always v2,100.0,2
+high_school_mathematics,Reasoning Judge,100.0,2
+high_school_mathematics,Peer Review Revision,100.0,2
+high_school_mathematics,Debate Revision,100.0,2
+high_school_mathematics,Gemma Final Arbiter,100.0,2
+high_school_mathematics,Gemma Final Arbiter v2,100.0,2
+high_school_mathematics,Gemma Error-Check Revision,100.0,2
+high_school_mathematics,Peer Review + Gemma Final,100.0,2
+high_school_mathematics,Debate + Gemma Final,100.0,2
+high_school_mathematics,Option-wise Verifier,100.0,2
+high_school_mathematics,Adaptive Debate Stop,100.0,2
+high_school_mathematics,Gemma Self-Consistency 3x,100.0,2
+high_school_mathematics,Gemma-Centered Sequential Review,100.0,2
+high_school_mathematics,Coarse Pattern-Best Router,100.0,2
+high_school_mathematics,TriCheck Meta Decision,100.0,2
+high_school_microeconomics,gemma3:12b,100.0,4
+high_school_microeconomics,llama3.1:8b,100.0,4
+high_school_microeconomics,mistral-nemo:12b,100.0,4
+high_school_microeconomics,Majority Vote,100.0,4
+high_school_microeconomics,Confidence Weighted Vote,100.0,4
+high_school_microeconomics,Judge on Disagreement,100.0,4
+high_school_microeconomics,Judge Always,100.0,4
+high_school_microeconomics,Judge Always v2,100.0,4
+high_school_microeconomics,Reasoning Judge,100.0,4
+high_school_microeconomics,Peer Review Revision,100.0,4
+high_school_microeconomics,Debate Revision,100.0,4
+high_school_microeconomics,Gemma Final Arbiter,100.0,4
+high_school_microeconomics,Gemma Final Arbiter v2,100.0,4
+high_school_microeconomics,Gemma Error-Check Revision,100.0,4
+high_school_microeconomics,Peer Review + Gemma Final,100.0,4
+high_school_microeconomics,Debate + Gemma Final,75.0,4
+high_school_microeconomics,Option-wise Verifier,100.0,4
+high_school_microeconomics,Adaptive Debate Stop,100.0,4
+high_school_microeconomics,Gemma Self-Consistency 3x,100.0,4
+high_school_microeconomics,Gemma-Centered Sequential Review,100.0,4
+high_school_microeconomics,Coarse Pattern-Best Router,100.0,4
+high_school_microeconomics,TriCheck Meta Decision,100.0,4
+high_school_physics,gemma3:12b,50.0,2
+high_school_physics,llama3.1:8b,50.0,2
+high_school_physics,mistral-nemo:12b,50.0,2
+high_school_physics,Majority Vote,50.0,2
+high_school_physics,Confidence Weighted Vote,50.0,2
+high_school_physics,Judge on Disagreement,50.0,2
+high_school_physics,Judge Always,50.0,2
+high_school_physics,Judge Always v2,0.0,2
+high_school_physics,Reasoning Judge,50.0,2
+high_school_physics,Peer Review Revision,50.0,2
+high_school_physics,Debate Revision,50.0,2
+high_school_physics,Gemma Final Arbiter,50.0,2
+high_school_physics,Gemma Final Arbiter v2,50.0,2
+high_school_physics,Gemma Error-Check Revision,50.0,2
+high_school_physics,Peer Review + Gemma Final,50.0,2
+high_school_physics,Debate + Gemma Final,50.0,2
+high_school_physics,Option-wise Verifier,50.0,2
+high_school_physics,Adaptive Debate Stop,50.0,2
+high_school_physics,Gemma Self-Consistency 3x,0.0,2
+high_school_physics,Gemma-Centered Sequential Review,50.0,2
+high_school_physics,Coarse Pattern-Best Router,50.0,2
+high_school_physics,TriCheck Meta Decision,50.0,2
+high_school_statistics,gemma3:12b,33.33,3
+high_school_statistics,llama3.1:8b,66.67,3
+high_school_statistics,mistral-nemo:12b,33.33,3
+high_school_statistics,Majority Vote,33.33,3
+high_school_statistics,Confidence Weighted Vote,33.33,3
+high_school_statistics,Judge on Disagreement,66.67,3
+high_school_statistics,Judge Always,66.67,3
+high_school_statistics,Judge Always v2,66.67,3
+high_school_statistics,Reasoning Judge,33.33,3
+high_school_statistics,Peer Review Revision,0.0,3
+high_school_statistics,Debate Revision,66.67,3
+high_school_statistics,Gemma Final Arbiter,33.33,3
+high_school_statistics,Gemma Final Arbiter v2,33.33,3
+high_school_statistics,Gemma Error-Check Revision,100.0,3
+high_school_statistics,Peer Review + Gemma Final,0.0,3
+high_school_statistics,Debate + Gemma Final,66.67,3
+high_school_statistics,Option-wise Verifier,33.33,3
+high_school_statistics,Adaptive Debate Stop,66.67,3
+high_school_statistics,Gemma Self-Consistency 3x,100.0,3
+high_school_statistics,Gemma-Centered Sequential Review,33.33,3
+high_school_statistics,Coarse Pattern-Best Router,66.67,3
+high_school_statistics,TriCheck Meta Decision,66.67,3
+high_school_us_history,gemma3:12b,100.0,1
+high_school_us_history,llama3.1:8b,100.0,1
+high_school_us_history,mistral-nemo:12b,100.0,1
+high_school_us_history,Majority Vote,100.0,1
+high_school_us_history,Confidence Weighted Vote,100.0,1
+high_school_us_history,Judge on Disagreement,100.0,1
+high_school_us_history,Judge Always,100.0,1
+high_school_us_history,Judge Always v2,100.0,1
+high_school_us_history,Reasoning Judge,100.0,1
+high_school_us_history,Peer Review Revision,100.0,1
+high_school_us_history,Debate Revision,100.0,1
+high_school_us_history,Gemma Final Arbiter,100.0,1
+high_school_us_history,Gemma Final Arbiter v2,100.0,1
+high_school_us_history,Gemma Error-Check Revision,100.0,1
+high_school_us_history,Peer Review + Gemma Final,100.0,1
+high_school_us_history,Debate + Gemma Final,100.0,1
+high_school_us_history,Option-wise Verifier,100.0,1
+high_school_us_history,Adaptive Debate Stop,100.0,1
+high_school_us_history,Gemma Self-Consistency 3x,100.0,1
+high_school_us_history,Gemma-Centered Sequential Review,100.0,1
+high_school_us_history,Coarse Pattern-Best Router,100.0,1
+high_school_us_history,TriCheck Meta Decision,100.0,1
+high_school_world_history,gemma3:12b,75.0,4
+high_school_world_history,llama3.1:8b,50.0,4
+high_school_world_history,mistral-nemo:12b,50.0,4
+high_school_world_history,Majority Vote,50.0,4
+high_school_world_history,Confidence Weighted Vote,50.0,4
+high_school_world_history,Judge on Disagreement,75.0,4
+high_school_world_history,Judge Always,75.0,4
+high_school_world_history,Judge Always v2,50.0,4
+high_school_world_history,Reasoning Judge,50.0,4
+high_school_world_history,Peer Review Revision,75.0,4
+high_school_world_history,Debate Revision,50.0,4
+high_school_world_history,Gemma Final Arbiter,75.0,4
+high_school_world_history,Gemma Final Arbiter v2,75.0,4
+high_school_world_history,Gemma Error-Check Revision,50.0,4
+high_school_world_history,Peer Review + Gemma Final,75.0,4
+high_school_world_history,Debate + Gemma Final,75.0,4
+high_school_world_history,Option-wise Verifier,50.0,4
+high_school_world_history,Adaptive Debate Stop,50.0,4
+high_school_world_history,Gemma Self-Consistency 3x,75.0,4
+high_school_world_history,Gemma-Centered Sequential Review,50.0,4
+high_school_world_history,Coarse Pattern-Best Router,75.0,4
+high_school_world_history,TriCheck Meta Decision,75.0,4
+human_aging,gemma3:12b,100.0,3
+human_aging,llama3.1:8b,66.67,3
+human_aging,mistral-nemo:12b,66.67,3
+human_aging,Majority Vote,66.67,3
+human_aging,Confidence Weighted Vote,66.67,3
+human_aging,Judge on Disagreement,66.67,3
+human_aging,Judge Always,100.0,3
+human_aging,Judge Always v2,33.33,3
+human_aging,Reasoning Judge,66.67,3
+human_aging,Peer Review Revision,66.67,3
+human_aging,Debate Revision,66.67,3
+human_aging,Gemma Final Arbiter,66.67,3
+human_aging,Gemma Final Arbiter v2,100.0,3
+human_aging,Gemma Error-Check Revision,66.67,3
+human_aging,Peer Review + Gemma Final,66.67,3
+human_aging,Debate + Gemma Final,33.33,3
+human_aging,Option-wise Verifier,66.67,3
+human_aging,Adaptive Debate Stop,66.67,3
+human_aging,Gemma Self-Consistency 3x,66.67,3
+human_aging,Gemma-Centered Sequential Review,66.67,3
+human_aging,Coarse Pattern-Best Router,100.0,3
+human_aging,TriCheck Meta Decision,66.67,3
+machine_learning,gemma3:12b,33.33,3
+machine_learning,llama3.1:8b,33.33,3
+machine_learning,mistral-nemo:12b,33.33,3
+machine_learning,Majority Vote,33.33,3
+machine_learning,Confidence Weighted Vote,33.33,3
+machine_learning,Judge on Disagreement,33.33,3
+machine_learning,Judge Always,66.67,3
+machine_learning,Judge Always v2,33.33,3
+machine_learning,Reasoning Judge,33.33,3
+machine_learning,Peer Review Revision,33.33,3
+machine_learning,Debate Revision,0.0,3
+machine_learning,Gemma Final Arbiter,66.67,3
+machine_learning,Gemma Final Arbiter v2,33.33,3
+machine_learning,Gemma Error-Check Revision,33.33,3
+machine_learning,Peer Review + Gemma Final,33.33,3
+machine_learning,Debate + Gemma Final,0.0,3
+machine_learning,Option-wise Verifier,66.67,3
+machine_learning,Adaptive Debate Stop,0.0,3
+machine_learning,Gemma Self-Consistency 3x,66.67,3
+machine_learning,Gemma-Centered Sequential Review,66.67,3
+machine_learning,Coarse Pattern-Best Router,33.33,3
+machine_learning,TriCheck Meta Decision,66.67,3
+medical_genetics,gemma3:12b,100.0,1
+medical_genetics,llama3.1:8b,100.0,1
+medical_genetics,mistral-nemo:12b,100.0,1
+medical_genetics,Majority Vote,100.0,1
+medical_genetics,Confidence Weighted Vote,100.0,1
+medical_genetics,Judge on Disagreement,100.0,1
+medical_genetics,Judge Always,100.0,1
+medical_genetics,Judge Always v2,100.0,1
+medical_genetics,Reasoning Judge,100.0,1
+medical_genetics,Peer Review Revision,100.0,1
+medical_genetics,Debate Revision,100.0,1
+medical_genetics,Gemma Final Arbiter,100.0,1
+medical_genetics,Gemma Final Arbiter v2,100.0,1
+medical_genetics,Gemma Error-Check Revision,100.0,1
+medical_genetics,Peer Review + Gemma Final,100.0,1
+medical_genetics,Debate + Gemma Final,100.0,1
+medical_genetics,Option-wise Verifier,0.0,1
+medical_genetics,Adaptive Debate Stop,100.0,1
+medical_genetics,Gemma Self-Consistency 3x,100.0,1
+medical_genetics,Gemma-Centered Sequential Review,100.0,1
+medical_genetics,Coarse Pattern-Best Router,100.0,1
+medical_genetics,TriCheck Meta Decision,100.0,1
+miscellaneous,gemma3:12b,100.0,2
+miscellaneous,llama3.1:8b,100.0,2
+miscellaneous,mistral-nemo:12b,100.0,2
+miscellaneous,Majority Vote,100.0,2
+miscellaneous,Confidence Weighted Vote,100.0,2
+miscellaneous,Judge on Disagreement,100.0,2
+miscellaneous,Judge Always,100.0,2
+miscellaneous,Judge Always v2,100.0,2
+miscellaneous,Reasoning Judge,100.0,2
+miscellaneous,Peer Review Revision,100.0,2
+miscellaneous,Debate Revision,100.0,2
+miscellaneous,Gemma Final Arbiter,100.0,2
+miscellaneous,Gemma Final Arbiter v2,100.0,2
+miscellaneous,Gemma Error-Check Revision,100.0,2
+miscellaneous,Peer Review + Gemma Final,100.0,2
+miscellaneous,Debate + Gemma Final,100.0,2
+miscellaneous,Option-wise Verifier,100.0,2
+miscellaneous,Adaptive Debate Stop,100.0,2
+miscellaneous,Gemma Self-Consistency 3x,100.0,2
+miscellaneous,Gemma-Centered Sequential Review,100.0,2
+miscellaneous,Coarse Pattern-Best Router,100.0,2
+miscellaneous,TriCheck Meta Decision,100.0,2
+moral_disputes,gemma3:12b,0.0,1
+moral_disputes,llama3.1:8b,0.0,1
+moral_disputes,mistral-nemo:12b,100.0,1
+moral_disputes,Majority Vote,0.0,1
+moral_disputes,Confidence Weighted Vote,0.0,1
+moral_disputes,Judge on Disagreement,0.0,1
+moral_disputes,Judge Always,0.0,1
+moral_disputes,Judge Always v2,0.0,1
+moral_disputes,Reasoning Judge,0.0,1
+moral_disputes,Peer Review Revision,100.0,1
+moral_disputes,Debate Revision,0.0,1
+moral_disputes,Gemma Final Arbiter,100.0,1
+moral_disputes,Gemma Final Arbiter v2,0.0,1
+moral_disputes,Gemma Error-Check Revision,0.0,1
+moral_disputes,Peer Review + Gemma Final,100.0,1
+moral_disputes,Debate + Gemma Final,0.0,1
+moral_disputes,Option-wise Verifier,0.0,1
+moral_disputes,Adaptive Debate Stop,0.0,1
+moral_disputes,Gemma Self-Consistency 3x,0.0,1
+moral_disputes,Gemma-Centered Sequential Review,0.0,1
+moral_disputes,Coarse Pattern-Best Router,100.0,1
+moral_disputes,TriCheck Meta Decision,0.0,1
+moral_scenarios,gemma3:12b,20.0,5
+moral_scenarios,llama3.1:8b,40.0,5
+moral_scenarios,mistral-nemo:12b,20.0,5
+moral_scenarios,Majority Vote,20.0,5
+moral_scenarios,Confidence Weighted Vote,20.0,5
+moral_scenarios,Judge on Disagreement,0.0,5
+moral_scenarios,Judge Always,0.0,5
+moral_scenarios,Judge Always v2,40.0,5
+moral_scenarios,Reasoning Judge,20.0,5
+moral_scenarios,Peer Review Revision,60.0,5
+moral_scenarios,Debate Revision,40.0,5
+moral_scenarios,Gemma Final Arbiter,40.0,5
+moral_scenarios,Gemma Final Arbiter v2,20.0,5
+moral_scenarios,Gemma Error-Check Revision,20.0,5
+moral_scenarios,Peer Review + Gemma Final,80.0,5
+moral_scenarios,Debate + Gemma Final,60.0,5
+moral_scenarios,Option-wise Verifier,40.0,5
+moral_scenarios,Adaptive Debate Stop,60.0,5
+moral_scenarios,Gemma Self-Consistency 3x,40.0,5
+moral_scenarios,Gemma-Centered Sequential Review,20.0,5
+moral_scenarios,Coarse Pattern-Best Router,20.0,5
+moral_scenarios,TriCheck Meta Decision,40.0,5
+nutrition,gemma3:12b,66.67,3
+nutrition,llama3.1:8b,0.0,3
+nutrition,mistral-nemo:12b,33.33,3
+nutrition,Majority Vote,33.33,3
+nutrition,Confidence Weighted Vote,33.33,3
+nutrition,Judge on Disagreement,66.67,3
+nutrition,Judge Always,66.67,3
+nutrition,Judge Always v2,66.67,3
+nutrition,Reasoning Judge,66.67,3
+nutrition,Peer Review Revision,66.67,3
+nutrition,Debate Revision,66.67,3
+nutrition,Gemma Final Arbiter,66.67,3
+nutrition,Gemma Final Arbiter v2,33.33,3
+nutrition,Gemma Error-Check Revision,33.33,3
+nutrition,Peer Review + Gemma Final,66.67,3
+nutrition,Debate + Gemma Final,66.67,3
+nutrition,Option-wise Verifier,66.67,3
+nutrition,Adaptive Debate Stop,66.67,3
+nutrition,Gemma Self-Consistency 3x,66.67,3
+nutrition,Gemma-Centered Sequential Review,33.33,3
+nutrition,Coarse Pattern-Best Router,66.67,3
+nutrition,TriCheck Meta Decision,66.67,3
+philosophy,gemma3:12b,100.0,2
+philosophy,llama3.1:8b,50.0,2
+philosophy,mistral-nemo:12b,0.0,2
+philosophy,Majority Vote,50.0,2
+philosophy,Confidence Weighted Vote,50.0,2
+philosophy,Judge on Disagreement,100.0,2
+philosophy,Judge Always,100.0,2
+philosophy,Judge Always v2,50.0,2
+philosophy,Reasoning Judge,100.0,2
+philosophy,Peer Review Revision,50.0,2
+philosophy,Debate Revision,50.0,2
+philosophy,Gemma Final Arbiter,50.0,2
+philosophy,Gemma Final Arbiter v2,50.0,2
+philosophy,Gemma Error-Check Revision,0.0,2
+philosophy,Peer Review + Gemma Final,100.0,2
+philosophy,Debate + Gemma Final,50.0,2
+philosophy,Option-wise Verifier,0.0,2
+philosophy,Adaptive Debate Stop,50.0,2
+philosophy,Gemma Self-Consistency 3x,100.0,2
+philosophy,Gemma-Centered Sequential Review,100.0,2
+philosophy,Coarse Pattern-Best Router,100.0,2
+philosophy,TriCheck Meta Decision,100.0,2
+prehistory,gemma3:12b,50.0,2
+prehistory,llama3.1:8b,50.0,2
+prehistory,mistral-nemo:12b,0.0,2
+prehistory,Majority Vote,50.0,2
+prehistory,Confidence Weighted Vote,50.0,2
+prehistory,Judge on Disagreement,50.0,2
+prehistory,Judge Always,50.0,2
+prehistory,Judge Always v2,0.0,2
+prehistory,Reasoning Judge,50.0,2
+prehistory,Peer Review Revision,50.0,2
+prehistory,Debate Revision,50.0,2
+prehistory,Gemma Final Arbiter,50.0,2
+prehistory,Gemma Final Arbiter v2,50.0,2
+prehistory,Gemma Error-Check Revision,0.0,2
+prehistory,Peer Review + Gemma Final,50.0,2
+prehistory,Debate + Gemma Final,50.0,2
+prehistory,Option-wise Verifier,50.0,2
+prehistory,Adaptive Debate Stop,50.0,2
+prehistory,Gemma Self-Consistency 3x,50.0,2
+prehistory,Gemma-Centered Sequential Review,50.0,2
+prehistory,Coarse Pattern-Best Router,50.0,2
+prehistory,TriCheck Meta Decision,50.0,2
+professional_accounting,gemma3:12b,33.33,3
+professional_accounting,llama3.1:8b,33.33,3
+professional_accounting,mistral-nemo:12b,33.33,3
+professional_accounting,Majority Vote,0.0,3
+professional_accounting,Confidence Weighted Vote,0.0,3
+professional_accounting,Judge on Disagreement,100.0,3
+professional_accounting,Judge Always,33.33,3
+professional_accounting,Judge Always v2,33.33,3
+professional_accounting,Reasoning Judge,33.33,3
+professional_accounting,Peer Review Revision,33.33,3
+professional_accounting,Debate Revision,33.33,3
+professional_accounting,Gemma Final Arbiter,33.33,3
+professional_accounting,Gemma Final Arbiter v2,33.33,3
+professional_accounting,Gemma Error-Check Revision,66.67,3
+professional_accounting,Peer Review + Gemma Final,66.67,3
+professional_accounting,Debate + Gemma Final,66.67,3
+professional_accounting,Option-wise Verifier,66.67,3
+professional_accounting,Adaptive Debate Stop,33.33,3
+professional_accounting,Gemma Self-Consistency 3x,66.67,3
+professional_accounting,Gemma-Centered Sequential Review,33.33,3
+professional_accounting,Coarse Pattern-Best Router,33.33,3
+professional_accounting,TriCheck Meta Decision,33.33,3
+professional_law,gemma3:12b,57.14,14
+professional_law,llama3.1:8b,50.0,14
+professional_law,mistral-nemo:12b,57.14,14
+professional_law,Majority Vote,57.14,14
+professional_law,Confidence Weighted Vote,64.29,14
+professional_law,Judge on Disagreement,42.86,14
+professional_law,Judge Always,57.14,14
+professional_law,Judge Always v2,35.71,14
+professional_law,Reasoning Judge,64.29,14
+professional_law,Peer Review Revision,42.86,14
+professional_law,Debate Revision,42.86,14
+professional_law,Gemma Final Arbiter,57.14,14
+professional_law,Gemma Final Arbiter v2,42.86,14
+professional_law,Gemma Error-Check Revision,50.0,14
+professional_law,Peer Review + Gemma Final,35.71,14
+professional_law,Debate + Gemma Final,42.86,14
+professional_law,Option-wise Verifier,50.0,14
+professional_law,Adaptive Debate Stop,42.86,14
+professional_law,Gemma Self-Consistency 3x,57.14,14
+professional_law,Gemma-Centered Sequential Review,50.0,14
+professional_law,Coarse Pattern-Best Router,57.14,14
+professional_law,TriCheck Meta Decision,42.86,14
+professional_medicine,gemma3:12b,100.0,1
+professional_medicine,llama3.1:8b,100.0,1
+professional_medicine,mistral-nemo:12b,100.0,1
+professional_medicine,Majority Vote,100.0,1
+professional_medicine,Confidence Weighted Vote,100.0,1
+professional_medicine,Judge on Disagreement,100.0,1
+professional_medicine,Judge Always,100.0,1
+professional_medicine,Judge Always v2,100.0,1
+professional_medicine,Reasoning Judge,100.0,1
+professional_medicine,Peer Review Revision,100.0,1
+professional_medicine,Debate Revision,100.0,1
+professional_medicine,Gemma Final Arbiter,100.0,1
+professional_medicine,Gemma Final Arbiter v2,100.0,1
+professional_medicine,Gemma Error-Check Revision,100.0,1
+professional_medicine,Peer Review + Gemma Final,100.0,1
+professional_medicine,Debate + Gemma Final,100.0,1
+professional_medicine,Option-wise Verifier,100.0,1
+professional_medicine,Adaptive Debate Stop,100.0,1
+professional_medicine,Gemma Self-Consistency 3x,100.0,1
+professional_medicine,Gemma-Centered Sequential Review,100.0,1
+professional_medicine,Coarse Pattern-Best Router,100.0,1
+professional_medicine,TriCheck Meta Decision,100.0,1
+professional_psychology,gemma3:12b,50.0,2
+professional_psychology,llama3.1:8b,50.0,2
+professional_psychology,mistral-nemo:12b,0.0,2
+professional_psychology,Majority Vote,50.0,2
+professional_psychology,Confidence Weighted Vote,50.0,2
+professional_psychology,Judge on Disagreement,50.0,2
+professional_psychology,Judge Always,50.0,2
+professional_psychology,Judge Always v2,50.0,2
+professional_psychology,Reasoning Judge,50.0,2
+professional_psychology,Peer Review Revision,0.0,2
+professional_psychology,Debate Revision,50.0,2
+professional_psychology,Gemma Final Arbiter,0.0,2
+professional_psychology,Gemma Final Arbiter v2,50.0,2
+professional_psychology,Gemma Error-Check Revision,0.0,2
+professional_psychology,Peer Review + Gemma Final,0.0,2
+professional_psychology,Debate + Gemma Final,50.0,2
+professional_psychology,Option-wise Verifier,50.0,2
+professional_psychology,Adaptive Debate Stop,50.0,2
+professional_psychology,Gemma Self-Consistency 3x,50.0,2
+professional_psychology,Gemma-Centered Sequential Review,50.0,2
+professional_psychology,Coarse Pattern-Best Router,0.0,2
+professional_psychology,TriCheck Meta Decision,50.0,2
+security_studies,gemma3:12b,33.33,3
+security_studies,llama3.1:8b,33.33,3
+security_studies,mistral-nemo:12b,33.33,3
+security_studies,Majority Vote,33.33,3
+security_studies,Confidence Weighted Vote,33.33,3
+security_studies,Judge on Disagreement,33.33,3
+security_studies,Judge Always,33.33,3
+security_studies,Judge Always v2,33.33,3
+security_studies,Reasoning Judge,33.33,3
+security_studies,Peer Review Revision,33.33,3
+security_studies,Debate Revision,33.33,3
+security_studies,Gemma Final Arbiter,33.33,3
+security_studies,Gemma Final Arbiter v2,33.33,3
+security_studies,Gemma Error-Check Revision,66.67,3
+security_studies,Peer Review + Gemma Final,33.33,3
+security_studies,Debate + Gemma Final,33.33,3
+security_studies,Option-wise Verifier,0.0,3
+security_studies,Adaptive Debate Stop,33.33,3
+security_studies,Gemma Self-Consistency 3x,33.33,3
+security_studies,Gemma-Centered Sequential Review,33.33,3
+security_studies,Coarse Pattern-Best Router,33.33,3
+security_studies,TriCheck Meta Decision,33.33,3
+sociology,gemma3:12b,100.0,1
+sociology,llama3.1:8b,100.0,1
+sociology,mistral-nemo:12b,100.0,1
+sociology,Majority Vote,100.0,1
+sociology,Confidence Weighted Vote,100.0,1
+sociology,Judge on Disagreement,100.0,1
+sociology,Judge Always,100.0,1
+sociology,Judge Always v2,100.0,1
+sociology,Reasoning Judge,100.0,1
+sociology,Peer Review Revision,100.0,1
+sociology,Debate Revision,100.0,1
+sociology,Gemma Final Arbiter,100.0,1
+sociology,Gemma Final Arbiter v2,100.0,1
+sociology,Gemma Error-Check Revision,100.0,1
+sociology,Peer Review + Gemma Final,100.0,1
+sociology,Debate + Gemma Final,100.0,1
+sociology,Option-wise Verifier,100.0,1
+sociology,Adaptive Debate Stop,100.0,1
+sociology,Gemma Self-Consistency 3x,100.0,1
+sociology,Gemma-Centered Sequential Review,100.0,1
+sociology,Coarse Pattern-Best Router,100.0,1
+sociology,TriCheck Meta Decision,100.0,1
+us_foreign_policy,gemma3:12b,100.0,1
+us_foreign_policy,llama3.1:8b,100.0,1
+us_foreign_policy,mistral-nemo:12b,100.0,1
+us_foreign_policy,Majority Vote,100.0,1
+us_foreign_policy,Confidence Weighted Vote,100.0,1
+us_foreign_policy,Judge on Disagreement,100.0,1
+us_foreign_policy,Judge Always,100.0,1
+us_foreign_policy,Judge Always v2,100.0,1
+us_foreign_policy,Reasoning Judge,100.0,1
+us_foreign_policy,Peer Review Revision,100.0,1
+us_foreign_policy,Debate Revision,100.0,1
+us_foreign_policy,Gemma Final Arbiter,100.0,1
+us_foreign_policy,Gemma Final Arbiter v2,100.0,1
+us_foreign_policy,Gemma Error-Check Revision,100.0,1
+us_foreign_policy,Peer Review + Gemma Final,100.0,1
+us_foreign_policy,Debate + Gemma Final,100.0,1
+us_foreign_policy,Option-wise Verifier,100.0,1
+us_foreign_policy,Adaptive Debate Stop,100.0,1
+us_foreign_policy,Gemma Self-Consistency 3x,100.0,1
+us_foreign_policy,Gemma-Centered Sequential Review,100.0,1
+us_foreign_policy,Coarse Pattern-Best Router,100.0,1
+us_foreign_policy,TriCheck Meta Decision,100.0,1
+world_religions,gemma3:12b,100.0,2
+world_religions,llama3.1:8b,100.0,2
+world_religions,mistral-nemo:12b,100.0,2
+world_religions,Majority Vote,100.0,2
+world_religions,Confidence Weighted Vote,100.0,2
+world_religions,Judge on Disagreement,100.0,2
+world_religions,Judge Always,100.0,2
+world_religions,Judge Always v2,100.0,2
+world_religions,Reasoning Judge,100.0,2
+world_religions,Peer Review Revision,100.0,2
+world_religions,Debate Revision,100.0,2
+world_religions,Gemma Final Arbiter,100.0,2
+world_religions,Gemma Final Arbiter v2,100.0,2
+world_religions,Gemma Error-Check Revision,100.0,2
+world_religions,Peer Review + Gemma Final,100.0,2
+world_religions,Debate + Gemma Final,100.0,2
+world_religions,Option-wise Verifier,100.0,2
+world_religions,Adaptive Debate Stop,100.0,2
+world_religions,Gemma Self-Consistency 3x,100.0,2
+world_religions,Gemma-Centered Sequential Review,100.0,2
+world_religions,Coarse Pattern-Best Router,100.0,2
+world_religions,TriCheck Meta Decision,100.0,2

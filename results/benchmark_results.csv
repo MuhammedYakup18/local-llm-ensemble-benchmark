@@ -1,0 +1,495 @@
+﻿id,category,difficulty,question,correct_answer,majority_vote_answer,majority_vote_correct,confidence_weighted_vote_answer,confidence_weighted_vote_correct,judge_on_disagreement_answer,judge_on_disagreement_correct,judge_on_disagreement_time_sec,judge_on_disagreement_raw,judge_always_answer,judge_always_correct,judge_always_time_sec,judge_always_raw,reasoning_judge_answer,reasoning_judge_correct,reasoning_judge_time_sec,reasoning_judge_raw,peer_review_revision_answer,peer_review_revision_correct,peer_review_revision_time_sec,peer_review_resolver_raw,debate_revision_answer,debate_revision_correct,debate_revision_time_sec,debate_resolver_raw,qwen3:8b_answer,qwen3:8b_confidence,qwen3:8b_correct,qwen3:8b_time_sec,qwen3:8b_raw,peer_qwen3:8b_answer,peer_qwen3:8b_confidence,peer_qwen3:8b_raw,debate_qwen3:8b_answer,debate_qwen3:8b_confidence,debate_qwen3:8b_raw,llama3.1:8b_answer,llama3.1:8b_confidence,llama3.1:8b_correct,llama3.1:8b_time_sec,llama3.1:8b_raw,peer_llama3.1:8b_answer,peer_llama3.1:8b_confidence,peer_llama3.1:8b_raw,debate_llama3.1:8b_answer,debate_llama3.1:8b_confidence,debate_llama3.1:8b_raw,mistral-nemo:12b_answer,mistral-nemo:12b_confidence,mistral-nemo:12b_correct,mistral-nemo:12b_time_sec,mistral-nemo:12b_raw,peer_mistral-nemo:12b_answer,peer_mistral-nemo:12b_confidence,peer_mistral-nemo:12b_raw,debate_mistral-nemo:12b_answer,debate_mistral-nemo:12b_confidence,debate_mistral-nemo:12b_raw
+1,python,easy,Python'da bir listenin uzunluğunu almak için hangi fonksiyon kullanılır? A) size() B) length() C) count() D) len(),D,D,True,D,True,D,True,0.0,Hakem çağrılmadı. Üç model aynı fikirdeydi.,D,True,9.34,CEVAP: D,D,True,6.46,CEVAP: D,D,True,26.88,Revize cevaplarda çoğunluk bulundu.,D,True,31.9,Revize cevaplarda çoğunluk bulundu.,D,100,True,7.63,"GEREKCE: Python'da liste uzunluğunu almak için `len()` fonksiyonu kullanılır. Diğer seçenekler (size(), length(), count()) bu amaçla kullanılmaz.
+CEVAP: D
+GUVEN: 100",D,100,"GEREKCE: Python'da liste uzunluğunu almak için `len()` fonksiyonu doğrudur. Diğer seçenekler bu görev için geçerli değildir.  
+CEVAP: D  
+GUVEN: 100",D,100,"GEREKCE: Python'da liste uzunluğunu almak için `len()` fonksiyonu doğrudan kullanılır. Diğer seçenekler bu işlevi gerçekleştirmek için geçerli değildir.  
+CEVAP: D  
+GUVEN: 100",D,100,True,5.12,"Gerekçe: Python'da listelerin uzunluğu için kullanılan fonksiyonun ismi ""len""dir.
+CEVAP: D
+GUVEN: 100",D,80,"Benim ilk cevabım:
+
+GEREKÇE: Python'da listelerin uzunluğu için kullanılan fonksiyonun ismi ""len""dir.
+CEVAP: D
+
+Diğer modellerin cevapları:
+
+--- qwen3:8b ---
+Cevabı:
+GEREKCE: Python'da liste uzunluğunu almak için `len()` fonksiyonu kullanılır. Diğer seçenekler (size(), length(), count()) bu amaçla kullanılmaz.
+CEVAP: D
+GUVEN: 100
+
+--- mistral-nemo:12b ---
+Cevabı:
+GEREKÇE: Python dilinde bir listenin uzunluğunu bulmak için `len()` fonksiyonu kullanılır.
+CEVAP: D
+GÜVEN: 100
+
+Benim ilk cevabım doğru gibi görünüyor, çünkü diğer modeller de aynı cevabı veriyorlar. Benim cevabımın güven derecesi 80'dir.
+
+GEREKÇE: Python'da listelerin uzunluğu için kullanılan fonksiyonun ismi ""len""dir.
+CEVAP: D
+GUVEN: 80",C,100,"Bu model tartışması/debate turunda, üç modelin bağımsız cevaplarını karşılaştırıyorum:
+
+1. qwen3:8b - Cevap: D (len()), Gerekçe: Python'da liste uzunluğunu almak için `len()` fonksiyonu kullanılır.
+2. mistral-nemo:12b - Cevap: D (len()), Gerekçe: Python dilinde bir listenin uzunluğunu bulmak için `len()` fonksiyonu kullanılır.
+
+Her iki model de aynı cevabı veriyor, ancak farklı gerekçeler sunuyor. Ancak, her ikisinin de temelde aynı fikir olduğu görülmektedir: Python'da liste uzunluğunu almak için `len()` fonksiyonu kullanılır.
+
+Dördüncü modelin cevabını da ekliyorum:
+3. Benim cevabım - Cevap: D (len()), Gerekçe: Python'da listelerin uzunluğu için kullanılan fonksiyonun ismi ""len""dir.
+
+Her üç modelin de aynı cevabı verdikleri görülmektedir, ancak ben en doğru final cevabı seçmek için çoğunluğa körü körüne uymayacağım. Benim göre, her iki modelin de gerekçeleri tutarlı ve doğru görünmektedir.
+
+Sonuç olarak, en doğru final cevap:
+CEVAP: D
+GUVEN: 100",D,100,True,7.31,"GEREKÇE: Python dilinde bir listenin uzunluğunu bulmak için `len()` fonksiyonu kullanılır.
+CEVAP: D
+GÜVEN: 100",D,100,"GEREKÇE: Python dilinde bir listenin uzunluğunu bulmak için `len()` fonksiyonu kullanılır. Diğer seçenekler (size(), length(), count()) bu amaçla kullanılmaz.
+CEVAP: D
+GÜVEN: 100",D,100,"GEREKÇE: Üç model de aynı şekilde cevapladı. Python dilinde bir listenin uzunluğunu bulmak için `len()` fonksiyonu kullanılır.
+CEVAP: D
+GÜVEN: 100"
+2,python,medium,"Aşağıdaki Python kodunun çıktısı nedir? x=[1,2,3]; y=x; y.append(4); print(x) A) [1,2,3] B) [1,2,3,4] C) [4] D) Hata verir",B,B,True,B,True,B,True,15.37,CEVAP: B,B,True,13.17,CEVAP: B,B,True,8.86,CEVAP: B,B,True,30.57,Revize cevaplarda çoğunluk bulundu.,B,True,36.04,Revize cevaplarda çoğunluk bulundu.,B,95,True,14.26,"GEREKCE: y = x ile y ve x aynı liste referans eder. y.append(4) bu listeye 4 ekler, dolayısıyla print(x) bu değişikliği yansıtır.
+CEVAP: B
+GUVEN: 95",B,100,"GEREKCE: Listeler referans türdür; y = x ile y ve x aynı liste referans eder. y.append(4) bu listeye 4 ekler, dolayısıyla x de bu değişikliği yansıtır.
+CEVAP: B
+GUVEN: 100",B,100,"GEREKCE: Liste referansı ile atama yapılırsa değişiklikler her iki değişkene yansır.  
+CEVAP: B  
+GUVEN: 100",A,100,False,4.58,"Gerekçe: Liste kopyalama işleminde referans olarak aynı liste kullanılır.
+Cevap: A
+Güven: 100",B,100,"Benim ilk cevabım yanlıştı. İşte diğer modellerin cevaplarını değerlendirmek için:
+
+--- qwen3:8b ---
+Cevabı:
+GEREKÇE: y = x ile y ve x aynı liste referans eder. y.append(4) bu listeye 4 ekler, dolayısıyla print(x) bu değişikliği yansıtır.
+CEVAP: B
+GUVEN: 95
+
+Bu cevap doğru. Çünkü Python'da liste kopyalama işleminde referans olarak aynı liste kullanılır.
+
+--- mistral-nemo:12b ---
+Cevabı:
+GEREKÇE: x ve y aynı listeyi gösteriyorlar. y'e 4 eklenince, x de değişecektir.
+CEVAP: B
+GUVEN: 100
+
+Bu cevap da doğru. Aynı gerekçe geçerlidir.
+
+Benim ilk cevabım yanlıştı, doğru cevap B'dir.",B,100,"Bu model tartışması/debate turunda, üç modelin bağımsız cevaplarını karşılaştırıyorum:
+
+1. İlk model: Cevap A) [1,2,3] ve Güven: 100
+2. İkinci model: Cevap B) [1,2,3,4] ve Güven: 95
+3. Üçüncü model: Cevap B) [1,2,3,4] ve Güven: 100
+
+Çoğunluğa körü körüne uymayacağım, ancak modellerin güven derecelerini dikkate alacağım. İkinci ve üçüncü modellerin cevapları aynı (B) ve güven dereceleri de yüksek (95 ve 100). İlk modelin cevapları farklı (A), ancak Güven derecesi de en yüksek.
+
+Sonuç olarak, en doğru final cevabı B) [1,2,3,4] olacaktır.",B,100,True,7.52,"GEREKCE: x ve y aynı listeyi gösteriyorlar. y'e 4 eklenince, x de değişecektir.
+CEVAP: B
+GUVEN: 100",B,100,"GEREKÇE: x ve y aynı listeyi gösteriyorlar. y'e 4 eklenince, x de değişecektir.
+CEVAP: B
+GÜVEN: 100",A,100,"GEREKÇE: x ve y aynı listeyi gösteriyorlar. y'e 4 eklenince, x de değişecektir.
+CEVAP: B
+GÜVEN: 100
+
+GEREKÇE: y = x ile y ve x aynı liste referans eder. y.append(4) bu listeye 4 ekler, dolayısıyla print(x) bu değişikliği yansıtır.
+CEVAP: B
+GÜVEN: 95
+
+GEREKÇE: Liste kopyalama işleminde referans olarak aynı liste kullanılır.
+CEVAP: A
+GÜVEN: 100
+
+Çoğunluk cevabı B'dir."
+3,python,medium,Python'da bool([]) ifadesinin sonucu nedir? A) True B) False C) None D) Hata verir,B,B,True,B,True,B,True,0.0,Hakem çağrılmadı. Üç model aynı fikirdeydi.,B,True,11.84,CEVAP: B,B,True,10.05,CEVAP: B,B,True,26.46,Revize cevaplarda çoğunluk bulundu.,B,True,29.46,Revize cevaplarda çoğunluk bulundu.,B,100,True,12.81,"GEREKCE: Boole tipine dönüştürme işleminde boş bir liste ([]) Python'un falsy (yanlış) değerlerine girer. Bu nedenle bool([]) False döner.
+CEVAP: B
+GUVEN: 100",B,100,"GEREKCE: Boş liste, Python'da falsy (yanlış) bir değer olarak değerlendirilir.  
+CEVAP: B  
+GUVEN: 100",B,100,"GEREKCE: Boş liste, Python'da falsy (yanlış) bir değer olarak değerlendirilir.  
+CEVAP: B  
+GUVEN: 100",B,50,True,4.95,"Gerekçe: Bool fonksiyonu, bir değerin true ya da false olmasını kontrol eder. Boş liste false olarak kabul edilir.
+Cevap: B
+Guvenlik: 100",B,100,"Benim ilk cevabım yanlış görünüyor. Diğer modellerin cevapları daha doğru ve tutarlı.
+
+**Evaluasyon**
+
+* qwen3:8b modelinin cevabı: Boş liste ([]) Python'un falsy (yanlış) değerlerine girer, bu nedenle bool([]) False döner.
+	+ Gerekçe: Doğru. Bool fonksiyonu, bir değerin true ya da false olmasını kontrol eder ve boş liste false olarak kabul edilir.
+	+ Cevap: B
+	+ Güven: 100
+* mistral-nemo:12b modelinin cevabı: Boole tipi, Python'daki bir veri türüdür ve yalnızca iki değer alabilir: True veya False. Bir boş liste ([]) için bool() fonksiyonu False döndürür çünkü bir liste boşsa False'dir.
+	+ Gerekçe: Doğru. Bool fonksiyonu, bir değerin true ya da false olmasını kontrol eder ve boş liste false olarak kabul edilir.
+	+ Cevap: B
+	+ Güven: 100
+
+**Sonuç**
+
+Cevabım yanlış görünüyor. Doğru cevap B (False) ve güven puanı 100'dür.",B,100,"Bu model tartışması/debate turunda, üç modelin bağımsız cevaplarını karşılaştırıyorum:
+
+1. qwen3:8b - Cevap: B (False), Gerekçe: Boş liste false olarak kabul edilir.
+2. mistral-nemo:12b - Cevap: B (False), Gerekçe: Boole tipi, Python'daki bir veri türüdür ve yalnızca iki değer alabilir: True veya False.
+3. Benim cevabım - Cevap: B (False), Gerekçe: Bool fonksiyonu, bir değerin true ya da false olmasını kontrol eder.
+
+Tüm modellerin cevapları aynıdır: B (False). Bu nedenle, en doğru final cevabı:
+
+**CEVAP: B**
+**GUVEN: 100**
+
+Bu model tartışması/debate turunda çoğunluğa körü körüne uymak yerine, her modelin bağımsız cevaplarını karşılaştırarak en doğru sonuca ulaşıldı.",B,100,True,8.25,"GEREKÇE: Boole tipi, Python'daki bir veri türüdür ve yalnızca iki değer alabilir: True veya False. Bir boş liste ([]) için bool() fonksiyonu False döndürür çünkü bir liste boşsa False'dir.
+CEVAP: B
+GÜVEN: 100",B,100,"GEREKÇE: Boole tipi, Python'daki bir veri türüdür ve yalnızca iki değer alabilir: True veya False. Bir boş liste ([]) için bool() fonksiyonu False döndürür çünkü bir liste boşsa False'dir.
+CEVAP: B
+GÜVEN: 100",B,100,"GEREKÇE: Boole tipi, Python'daki bir veri türüdür ve yalnızca iki değer alabilir: True veya False. Bir boş liste ([]) için bool() fonksiyonu False döndürür çünkü bir liste boşsa False'dir.
+CEVAP: B
+GÜVEN: 100"
+4,python,medium,Aşağıdaki Python kodunun çıktısı nedir? print(3 * 'ab') A) ababab B) 3ab C) ab3 D) Hata verir,A,A,True,A,True,A,True,0.0,Hakem çağrılmadı. Üç model aynı fikirdeydi.,A,True,9.31,CEVAP: A,A,True,9.83,CEVAP: A,A,True,24.439999999999998,Revize cevaplarda çoğunluk bulundu.,A,True,28.919999999999998,Revize cevaplarda çoğunluk bulundu.,A,100,True,9.74,"GEREKCE: Python'da stringler sayı ile çarpıldığında tekrarlanır. 3 * 'ab' 'ababab' olur.
+CEVAP: A
+GUVEN: 100",A,100,"GEREKCE: Python'da stringler sayı ile çarpıldığında tekrarlanır. 3 * 'ab' 'ababab' olur.  
+CEVAP: A  
+GUVEN: 100",A,100,"GEREKCE: Python'da stringler sayı ile çarpıldığında tekrarlanır. 3 * 'ab' 'ababab' olur.  
+CEVAP: A  
+GUVEN: 100",A,50,True,4.99,"Gerekçe: Python'da bir string'i bir sayı ile çarpmanın anlamı, o string'in o sayıda tekrarlanmasıdır.
+CEVAP: A
+GVNEN: 100",A,50,"Gerçekten güzel bir soru!
+
+Benim ilk cevabım, diğer modellerin cevapları ile uyumlu. Python'da string'i bir sayı ile çarpmanın anlamı, o string'in o sayıda tekrarlanmasıdır.
+
+**GEREKÇE:** Python'da stringler sayı ile çarpıldığında tekrarlanır.
+**CEVAP:** A
+**GUVEN:** 100
+
+Diğer modellerin cevapları da aynı şekilde:
+- qwen3:8b: Kod, 3 kez 'ab' dizisini çarpar. Bu nedenle, çıktı 'ababab' olacaktır.
+- mistral-nemo:12b: Kod, 3 kez 'ab' dizisini çarpar. Bu nedenle, çıktı 'ababab' olacaktır.
+
+Tüm modellerin cevabı aynı!",A,100,"Bu model tartışması/debate turunda, üç modelin bağımsız cevaplarını karşılaştırıyorum:
+
+* İlk model: Python'da bir string'i bir sayı ile çarpmanın anlamı, o string'in o sayıda tekrarlanmasıdır. Bu nedenle, çıktı 'ababab' olacaktır.
+* İkinci model: Kod, 3 kez 'ab' dizisini çarpar. Bu nedenle, çıktı 'ababab' olacaktır.
+* Üçüncü model: (Bu modelin cevabı verilmemiştir)
+
+Çoğunluğa körü körüne uymayacağım ve her modelin açıklamasını değerlendireceğim. Tüm modeller, Python'da stringler sayı ile çarpıldığında tekrarlanır fikrine dayanmaktadır. Bu nedenle, en doğru final cevabı:
+
+CEVAP: A
+GUVEN: 100
+
+Bu cevap, tüm modellerin fikirlerini desteklemektedir.",A,100,True,7.48,"GEREKÇE: Kod, 3 kez 'ab' dizisini çarpar. Bu nedenle, çıktı 'ababab' olacaktır.
+CEVAP: A
+GÜVEN: 100",A,100,"GEREKÇE: Python'da stringler sayı ile çarpıldığında tekrarlanır. 3 * 'ab' 'ababab' olur.
+CEVAP: A
+GÜVEN: 100",A,100,"GEREKÇE: Python'da stringler sayı ile çarpıldığında tekrarlanır. 3 * 'ab' 'ababab' olur.
+CEVAP: A
+GÜVEN: 100
+
+Tüm modelin cevapları aynı olduğu için, en doğru final cevabı ""A""dır."
+5,python,medium,"Aşağıdaki Python kodunun çıktısı nedir? a=[1,2]; b=a.copy(); b.append(3); print(a) A) [1,2] B) [1,2,3] C) [3] D) Hata verir",A,A,True,A,True,A,True,0.0,Hakem çağrılmadı. Üç model aynı fikirdeydi.,A,True,14.94,CEVAP: A,A,True,13.96,CEVAP: A,A,True,32.959999999999994,Revize cevaplarda çoğunluk bulundu.,A,True,36.3,Revize cevaplarda çoğunluk bulundu.,A,95,True,15.35,"GEREKCE: `a.copy()` ile b listesi a'nın bir kopyası yapılır. `b.append(3)` sadece b'ye etki eder, a değişmez. Dolayısıyla `print(a)` [1,2] çıkar.
+CEVAP: A
+GUVEN: 95",A,100,"GEREKCE: `copy()` metodu yeni bir liste oluşturur, `append()` sadece `b`'ye etki eder. `a` değişmez.
+CEVAP: A
+GUVEN: 100",A,100,"GEREKCE: `copy()` metodu yeni bir liste oluşturur, bu yüzden `b`'ye yapılan değişiklikler `a`'yı etkilemez.  
+CEVAP: A  
+GUVEN: 100",A,50,True,4.81,"Gerekçe: Liste kopyalama işleminin çalışması için copy() fonksiyonu kullanılır.
+Cevap: A
+Guvenilirlik: 100",A,100,"Benim ilk cevabım doğru gibi görünüyor, ancak diğer modellerin cevaplarını değerlendireceğim:
+
+--- qwen3:8b ---
+Cevabı:
+GEREKÇE: `a.copy()` ile b listesi a'nın bir kopyası yapılır. `b.append(3)` sadece b'ye etki eder, a değişmez. Dolayısıyla `print(a)` [1,2] çıkar.
+CEVAP: A
+GUVEN: 95
+
+Bu cevap doğru gibi görünüyor, ancak güven derecesi 100 olmalı.
+
+--- mistral-nemo:12b ---
+Cevabı:
+GEREKÇE: `b` değişkeni `a`'yı kopyalar ancak `append()` fonksiyonu `b`'yi değiştirir. Bu nedenle, `a` değişkeninin çıktısı `b`'nin son durumundan etkilenmez.
+CEVAP: A
+GUVEN: 100
+
+Bu cevap da doğru gibi görünüyor ve güven derecesi 100.
+
+Sonuç olarak, benim ilk cevabım doğru ve diğer modellerin cevapları da aynıdır. Çıktının doğru cevabı:
+
+GEREKÇE: `a.copy()` ile b listesi a'nın bir kopyası yapılır. `b.append(3)` sadece b'ye etki eder, a değişmez.
+CEVAP: A
+GUVEN: 100",C,100,"En yüksek güvenliğe sahip modelin cevabını seçeceğim.
+
+Mistral-Nemo modelinin cevabı en yüksek güvenliğe sahiptir (100). Gerekçesi de doğru: `b` değişkeni `a`'yı kopyalar ancak `append()` fonksiyonu `b`'yi değiştirir. Bu nedenle, `a` değişkeninin çıktısı `b`'nin son durumundan etkilenmez.
+
+Sonuç olarak, en doğru cevap:
+
+CEVAP: A
+GUVEN: 100",A,100,True,8.91,"GEREKCE: `b` değişkeni `a`'yı kopyalar ancak `append()` fonksiyonu `b`'yi değiştirir. Bu nedenle, `a` değişkeninin çıktısı `b`'nin son durumundan etkilenmez.
+CEVAP: A
+GUVEN: 100",A,95,"GEREKÇE: `a.copy()` ile b listesi a'nın bir kopyası yapılır. `b.append(3)` sadece b'ye etki eder, a değişmez. Dolayısıyla `print(a)` [1,2] çıkar.
+CEVAP: A
+GÜVEN: 95",A,100,"GEREKÇE: `a.copy()` ile b listesi a'nın bir kopyası yapılır. `b.append(3)` sadece b'ye etki eder, a değişmez. Dolayısıyla `print(a)` [1,2] çıkar.
+CEVAP: A
+GÜVEN: 95
+
+GEREKÇE: Liste kopyalama işleminin çalışması için copy() fonksiyonu kullanılır.
+CEVAP: A
+GÜVEN: 100
+
+GEREKÇE: `b` değişkeni `a`'yı kopyalar ancak `append()` fonksiyonu `b`'yi değiştirir. Bu nedenle, `a` değişkeninin çıktısı `b`'nin son durumundan etkilenmez.
+CEVAP: A
+GÜVEN: 100
+
+Final Cevap: A"
+6,python,hard,Aşağıdaki Python kodunun çıktısı nedir? x=10; def f(): print(x); f() A) 10 B) None C) Hata verir D) 0,A,A,True,A,True,A,True,14.09,CEVAP: A,A,True,9.77,CEVAP: A,A,True,10.35,CEVAP: A,A,True,28.959999999999997,Revize cevaplarda çoğunluk bulundu.,A,True,37.75,Revize cevaplarda çoğunluk bulundu.,A,100,True,13.42,"GEREKCE: Fonksiyon içindeki `print(x)` çağrıldığında, `x` değişkeni global kapsamda tanımlanmış olduğundan 10 değeri yazdırılır.
+CEVAP: A
+GUVEN: 100",A,100,"GEREKCE: Fonksiyon içindeki `print(x)` çağrıldığında, `x` global kapsamda tanımlanmış olduğundan 10 değeri yazdırılır.  
+CEVAP: A  
+GUVEN: 100",A,100,"GEREKCE: Python, fonksiyon içindeki `x` değişkenini önce yerel kapsamda arar, bulamazsa dış kapsamda (global) arar. `x` global olarak tanımlandığı için 10 değeri yazdırılır.  
+CEVAP: A  
+GUVEN: 100",B,100,False,5.06,"Gerekçe: Fonksiyon içinde tanımlanan değişkenler fonksiyonun dışına export edilemez.
+Cevap: B
+Güven: 100",A,100,"Benim ilk cevabım yanlıştı. Diğer modellerin cevapları daha doğru.
+
+**Review**
+
+* qwen3:8b: Cevabı: A, Güven: 100
+ + Gerekçe: Fonksiyon içindeki `print(x)` çağrıldığında, `x` değişkeni global kapsamda tanımlanmış olduğundan 10 değeri yazdırulur.
+ + Değerlendirme: Bu gerekçe doğru. Fonksiyon içinde tanımlanan değişkenler fonksiyonun dışına export edilemez, ancak bu durumda `x` zaten global olarak tanımlanmıştır.
+* mistral-nemo:12b: Cevabı: A, Güven: 100
+ + Gerekçe: Fonksiyonun içindeki `x` değişkeni, fonksiyondan önceki alan kapsamında tanımlanmıştır. Bu nedenle, fonksiyon çağırıldığında `x`'in değeri 10'dur.
+ + Değerlendirme: Bu gerekçe de doğru. Fonksiyon içinde tanımlanan değişkenler fonksiyonun dışına export edilemez, ancak bu durumda `x` zaten global olarak tanımlanmıştır.
+
+**Sonuç**
+
+Cevap A (10) ve Güven: 100.",A,100,"Bu bir model tartışması/debate turudur. Üç modelin bağımsız cevaplarını karşılaştırıyorum:
+
+--- qwen3:8b ---
+Cevabı:
+GEREKÇE: Fonksiyon içinde tanımlanan değişkenler fonksiyonun dışına export edilemez.
+CEVAP: B
+GÜVEN: 100
+
+--- mistral-nemo:12b ---
+Cevabı:
+GEREKÇE: Fonksiyonun içindeki `x` değişkeni, fonksiyondan önceki alan kapsamında tanımlanmıştır. Bu nedenle, fonksiyon çağırıldığında `x`'in değeri 10'dur.
+CEVAP: A
+GÜVEN: 100
+
+--- ben:15b ---
+Cevabı:
+GEREKÇE: Fonksiyon içinde tanımlanan değişkenler fonksiyonun dışına export edilemez, ancak bu durumda `x` global kapsamda tanımlanmıştır. Bu nedenle, fonksiyon çağırıldığında `x`'in değeri 10'dur.
+CEVAP: A
+GÜVEN: 100
+
+Çoğunluğa körü körüne uymayacağım ve her modelin açıklamasını değerlendireceğim. Üç modelin hepsi, fonksiyon içinde tanımlanan değişkenlerin fonksiyonun dışına export edilemeyeceğini söylemektedir. Ancak, bu durumda `x` global kapsamda tanımlanmıştır, bu nedenle fonksiyon çağırıldığında `x`'in değeri 10'dur.
+
+Sonuç olarak, en doğru cevap A'dır: Fonksiyon içinde tanımlanan değişkenler fonksiyonun dışına export edilemez, ancak bu durumda `x` global kapsamda tanımlanmıştır.",A,100,True,8.76,"GEREKCE: Fonksiyonun içindeki `x` değişkeni, fonksiyondan önceki alan kapsamında tanımlanmıştır. Bu nedenle, fonksiyon çağırıldığında `x`'in değeri 10'dur.
+CEVAP: A
+GUVEN: 100",A,100,"GEREKÇE: Fonksiyon içindeki `print(x)` çağrıldığında, `x` değişkeni global kapsamda tanımlanmış olduğundan 10 değeri yazdırılır.
+CEVAP: A
+GÜVEN: 100",A,100,"GEREKÇE: Fonksiyon içindeki `print(x)` çağrıldığında, `x` değişkeni global kapsamda tanımlanmış olduğundan 10 değeri yazdırılır.
+CEVAP: A
+GÜVEN: 100
+
+Çoğunluk cevabı A'dır."
+7,python,hard,Aşağıdaki Python kodunda hangi çıktı alınır? x=10; def f(): x=x+1; print(x); f() A) 11 B) 10 C) UnboundLocalError D) None,C,C,True,C,True,A,False,55.95,CEVAP: A,C,True,17.58,CEVAP: C,C,True,72.19,"CEVAP: C  
+Gerekçe: Fonksiyon içinde `x` değişkeni lokal olarak tanımlanmadığı için, `x = x + 1` satırı sırasında lokal bir değişken olarak tanımlanmamış bir değişken okunmaya çalışılır. Bu durum `UnboundLocalError` hatasına neden olur.  
+
+**Açıklama:**  
+Python, fonksiyon içinde bir değişkene atama işlemi yaparken, bu değişkenin yerel (local) bir değişken olarak tanımlandığını varsayar. Ancak `x = x + 1` satırında, sağ taraftaki `x` henüz tanımlanmamış bir yerel değişken olarak değerlendirilir. Bu nedenle, `x` değişkeni global olarak tanımlanmış olsa da, Python bu değişkeni yerel olarak arar ve tanımlanmamış olarak algılar. Bu durum `UnboundLocalError` hatasına neden olur.  
+
+**Doğru Cevap:** C  
+**Neden:** `UnboundLocalError` hatası, yerel değişkenin tanımlanmamış olarak kullanılmaya çalışıldığı durumlarda oluşur. Bu soruda, `x` değişkeni fonksiyon içinde yerel olarak tanımlanmadığı için bu hata oluşur.  
+
+CEVAP: C",C,True,39.8,Revize cevaplarda çoğunluk bulundu.,C,True,41.94,Revize cevaplarda çoğunluk bulundu.,C,95,True,16.6,"GEREKCE: Fonksiyon içinde x değişkeni lokal olarak tanımlanmadığı için, x = x + 1 satırı sırasında lokal bir değişken olarak tanımlanmamış bir değişken okunmaya çalışılır. Bu durum UnboundLocalError hatasına neden olur.
+CEVAP: C
+GUVEN: 95",C,100,"GEREKCE: Fonksiyon içinde `x` değişkenine atama yapıldığı için yerel bir değişken olarak tanımlanır. Ancak bu değişken henüz tanımlanmamışken kullanılmaya çalışıldığı için `UnboundLocalError` oluşur.  
+CEVAP: C  
+GUVEN: 100",C,100,"GEREKCE: Fonksiyon içinde `x` değişkeni lokal olarak tanımlanmadığı için, `x = x + 1` satırı sırasında lokal bir değişken olarak tanımlanmamış bir değişken okunmaya çalışılır. Bu durum `UnboundLocalError` hatasına neden olur.  
+CEVAP: C  
+GUVEN: 100",C,100,True,5.47,"Gerekçe: Farklı bir değişkeni global olarak tanımlamadan, aynı isimli yerel değişkenin değerini değiştirmeye çalışıldığı için bu hata oluşur.
+Cevap: C
+Güven: 100",C,95,"Benim ilk cevabım yanlış gibi görünüyor. Diğer modellerin cevapları daha doğru görünüyor.
+
+**Mistral-nemo'nun cevabı**: Bu cevap, fonksiyon içinde `x` değişkeninin lokal olarak tanımlanmadığını ve bu nedenle `x = x + 1` satırı sırasında hata oluştuğunu açıklamaktadır. Ancak, bu durum UnboundLocalError hatasına neden olmaz.
+
+**qwen3'nin cevabı**: Bu cevap da aynı şekilde, fonksiyon içinde `x` değişkeninin lokal olarak tanımlanmadığını ve bu nedenle hata oluştuğunu açıklamaktadır. Ancak, bu durum UnboundLocalError hatasına neden olur.
+
+Benim ilk cevabım, UnboundLocalError hatası oluşacağını söyleyordu, ancak diğer modellerin cevapları daha doğru görünüyor. Fonksiyon içinde `x` değişkeninin lokal olarak tanımlanmadığını ve bu nedenle hata oluştuğunu açıklamaktadır.
+
+**Düzenlenen Cevap**: 
+GEREKCE: Fonksiyon içinde x değişkeni lokal olarak tanımlanmadığı için, x = x + 1 satırı sırasında lokal bir değişken olarak tanımlanmamış bir değişken okunmaya çalışılır. Bu durum UnboundLocalError hatasına neden olur.
+CEVAP: C
+GUVEN: 95",C,100,"Bu bir model tartışması/debate turudur. Üç modelin bağımsız cevaplarını karşılaştıracağım ve en doğru final cevabı seçeceğim.
+
+Model 1 (sen):
+Cevap: C (UnboundLocalError)
+Güven: 100
+
+Model 2:
+Cevap: A (11)
+Güven: 95
+
+Model 3:
+Cevap: A (11)
+Güven: 100
+
+Çoğunluğa körü körüne uymayacağım ve her modelin gerekçelerini inceleyeceğim. Model 1'in cevabı, fonksiyon içinde x değişkeninin lokal olarak tanımlanmamış olması nedeniyle UnboundLocalError hatasına neden olacağını belirtiyor. Bu nedenle, bu cevap doğru gibi görünüyor.
+
+Model 2 ve Model 3'ün cevabı ise, fonksiyon içinde x değişkeninin değerini artırdığını ve ekrana yazdırduğunu belirtiyorlar. Ancak, bu durumda x değişkeni lokal olarak tanımlanmamış olduğu için, UnboundLocalError hatası oluşacaktır.
+
+Sonuç olarak, en doğru cevap C (UnboundLocalError) gibi görünüyor.",A,100,False,8.93,"GEREKCE: `x` değişkeninin değeri 10'dur. `f()` fonksiyonu çağırıldığında, `x`'in değerini 1'in artırarak 11 yapar ve sonrasında bu değeri ekrana yazdırır.
+CEVAP: A
+GUVEN: 100",A,100,"GEREKCE: `x` değişkeninin değeri 10'dur. `f()` fonksiyonu çağırıldığında, `x`'in değerini 1'in artırarak 11 yapar ve sonrasında bu değeri ekrana yazdırır.
+CEVAP: A
+GÜVEN: 100",A,100,"GEREKÇE: `x` değişkeninin değeri 10'dur. `f()` fonksiyonu çağırıldığında, `x`'in değerini 1'in artırarak 11 yapar ve sonrasında bu değeri ekrana yazdırır.
+CEVAP: A
+GÜVEN: 100
+
+Çoğunluk cevabı A'dır."
+8,python,medium,Python'da dictionary içinde olmayan bir anahtara d['x'] ile erişilirse ne olur? A) None döner B) False döner C) KeyError oluşur D) Boş string döner,C,C,True,C,True,C,True,0.0,Hakem çağrılmadı. Üç model aynı fikirdeydi.,C,True,10.93,CEVAP: C,C,True,15.81,CEVAP: C,C,True,27.68,Revize cevaplarda çoğunluk bulundu.,C,True,32.29,Revize cevaplarda çoğunluk bulundu.,C,100,True,14.25,"GEREKCE: Python'da dictionary'lerde olmayan bir anahtar için d['x'] kullanıldığında KeyError oluşur. get() metodunu kullanmadığında varsayılan değer döner.
+CEVAP: C
+GUVEN: 100",C,100,"GEREKCE: Python'da dictionary'lerde olmayan bir anahtar için direkt erişim (d['x']) yapılırken KeyError hatası fırlatılır.  
+CEVAP: C  
+GUVEN: 100",C,100,"GEREKCE: Python'da dictionary'lerde olmayan bir anahtar için indexleme operatörü [] kullanıldığında KeyError hatası fırlatılır. get() metodunun kullanılması durumunda varsayılan değer döner ancak soruda bu durum söz konusu değildir.  
+CEVAP: C  
+GUVEN: 100",C,50,True,5.39,"Gerekçe: Python'da dictionary içinde olmayan bir anahtara d['x'] ile erişildiğinde, program hata fırsatı oluşturur ve bu hataya KeyError denir.
+Cevap: C
+Guvenlik: 100",D,100,"Benim ilk cevabım:
+
+GEREKÇE: Python'da dictionary içinde olmayan bir anahtara d['x'] ile erişildiğinde, program hata fırsatı oluşturur ve bu hataya KeyError denir.
+CEVAP: C
+GUVEN: 100
+
+Diğer modellerin cevapları:
+
+--- qwen3:8b ---
+GEREKÇE: Python'da dictionary'lerde olmayan bir anahtar için d['x'] kullanıldığında KeyError oluşur. get() metodunu kullanmadığında varsayılan değer döner.
+CEVAP: C
+GUVEN: 100
+
+Bu iki cevap aynıdır ve doğruyu belirtiyorlar. Benim ilk cevabım da aynıdır, ancak qwen3:8b modelinin gerekçesi daha detaylı.
+
+--- mistral-nemo:12b ---
+GEREKÇE: Python'da dictionary içinde olmayan bir anahtarın değeri çağırılmaya çalışıldığında, bir KeyError hatası oluşur.
+CEVAP: C
+GUVEN: 100
+
+Bu cevap da aynıdır ve doğruyu belirtiyor.
+
+Tüm modellerin cevabı aynı olduğu için, ilk cevabımın doğruluğunu teyit edebiliriz. Python'da dictionary içinde olmayan bir anahtara d['x'] ile erişildiğinde, program hata fırsatı oluşturur ve bu hataya KeyError denir.",C,50,"Bu model tartışması/debate turunda, üç modelin bağımsız cevaplarını karşılaştıracağım.
+
+**Model 1 (Sen):**
+Cevap: C
+Gerekçe: Python'da dictionary içinde olmayan bir anahtara d['x'] ile erişildiğinde, program hata fırsatı oluşturur ve bu hataya KeyError denir.
+
+**Model 2 (qwen3:8b):**
+Cevap: C
+Gerekçe: Python'da dictionary'lerde olmayan bir anahtar için d['x'] kullanıldığında KeyError oluşur. get() metodunu kullanmadığında varsayılan değer döner.
+
+**Model 3 (mistral-nemo:12b):**
+Cevap: C
+Gerekçe: Python'da dictionary içinde olmayan bir anahtarın değeri çağırılmaya çalışıldığında, bir KeyError hatası oluşur.
+
+Tüm modeller aynı cevabı veriyorlar: **C**. Bu da doğru cevapların çoğunluğunu oluşturmuyor. Ancak, gerekçeler de benzer ve tutarlı. Her üç model de Python'da dictionary içinde olmayan bir anahtara erişmeye çalışıldığında KeyError oluşacağını belirtiyor.
+
+Bu nedenle, en doğru final cevabı **C** olarak seçiyorum.",C,100,True,7.61,"CEVAB: C
+GEREKÇE: Python'da dictionary içinde olmayan bir anahtarın değeri çağırılmaya çalışıldığında, bir KeyError hatası oluşur.
+GÜVEN: 100",C,100,"GEREKÇE: Python'da dictionary içinde olmayan bir anahtara d['x'] ile erişilmeye çalışıldığında, program KeyError hatası oluşturur. Bu hata, istisnai durumlar için kullanılan Exception sınıfının bir örneğidir.
+CEVAP: C
+GUVEN: 100",C,100,"GEREKÇE: Python'da dictionary içinde olmayan bir anahtara d['x'] ile erişilirse, KeyError oluşur.
+CEVAP: C
+GÜVEN: 100"
+9,python,medium,Python'da set veri yapısının temel özelliği hangisidir? A) Sıralı ve tekrar eden eleman tutar B) Anahtar-değer tutar C) Tekrarsız elemanlar tutar D) Sadece sayı tutar,C,C,True,C,True,C,True,0.0,Hakem çağrılmadı. Üç model aynı fikirdeydi.,C,True,9.27,CEVAP: C,C,True,12.71,CEVAP: C,C,True,26.54,Revize cevaplarda çoğunluk bulundu.,C,True,28.880000000000003,Revize cevaplarda çoğunluk bulundu.,C,95,True,10.23,"GEREKCE: Set veri yapısı, tekrar eden elemanları depolamaz ve sırasızdır. Bu nedenle C seçeneği doğrudur.
+CEVAP: C
+GUVEN: 95",C,100,"GEREKCE: Set, tekrar eden elemanları depolamaz ve sırasızdır.  
+CEVAP: C  
+GUVEN: 100",C,100,"GEREKCE: Set, tekrar eden elemanları depolamaz ve sırasızdır. Bu yapı, benzersiz elemanları tutma özelliğine sahiptir.  
+CEVAP: C  
+GUVEN: 100",C,50,True,4.73,"Gerekçe: Set, tekrarlayan elementleri kaldırarak benzersiz elementler içerir.
+CEVAP: C
+GVNEN: 90",C,90,"Benim ilk cevabım:
+
+Cevap: C
+Gerekçe: Set, tekrarlayan elementleri kaldırarak benzersiz elementler içerir.
+
+Diğer modellerin cevapları:
+
+--- qwen3:8b ---
+Cevabı:
+GEREKÇE: Set veri yapısı, tekrar eden elemanları depolamaz ve sırasızdır. Bu nedenle C seçeneği doğrudur.
+CEVAP: C
+GUVEN: 95
+
+--- mistral-nemo:12b ---
+Cevabı:
+GEREKÇE: Set veri yapısı, tekrarlardan kurtulmuş ve sırasız bir şekilde tutulan verileri ifade eder.
+CEVAP: C
+GUVEN: 100
+
+Benim cevabım aynı kalıyor çünkü doğru görünüyor. Set veri yapısının temel özelliği, tekrar eden elemanları kaldırarak benzersiz elementler içeriyor.
+
+GEREKÇE: kısa gerekçen
+CEVAP: C
+GUVEN: 90",C,50,"Bu model tartışması/debate turunda, üç modelin bağımsız cevaplarını karşılaştırıyorum:
+
+1. İlk model: Set veri yapısının temel özelliği, tekrarsız elemanlar tutmaktır.
+   Cevap: C
+   Güvenilirlik: 90
+
+2. İkinci model: Set veri yapısı, tekrar eden elemanları depolamaz ve sırasızdır.
+   Cevap: C
+   Güvenilirlik: 95
+
+3. Üçüncü model: Set veri yapısı, tekrarlardan kurtulmuş ve sırasız bir şekilde tutulan verileri ifade eder.
+   Cevap: C
+   Güvenilirlik: 100
+
+Tüm modellerin cevapları aynıdır: C. Bu, set veri yapısının temel özelliği olan tekrarsız elemanlar tutma özelliğini doğrular.
+
+Sonuç olarak, en doğru final cevabı:
+CEVAP: C",C,100,True,7.38,"GEREKCE: Set veri yapısı, tekrarlardan kurtulmuş ve sırasız bir şekilde tutulan verileri ifade eder.
+CEVAP: C
+GUVEN: 100",C,100,"GEREKÇE: Set veri yapısı, tekrarlardan kurtulmuş ve sırasız bir şekilde tutulan verileri ifade eder.
+CEVAB: C
+GÜVEN: 100",C,100,"GEREKÇE: Set veri yapısı, tekrarlardan kurtulmuş ve sırasız bir şekilde tutulan verileri ifade eder.
+CEVAP: C
+GÜVEN: 100"
+10,python,hard,"Aşağıdaki Python kodunun çıktısı nedir? print([i*i for i in range(3)]) A) [1,4,9] B) [0,1,4] C) [0,1,2] D) Hata verir",B,A,False,A,False,B,True,13.79,CEVAP: B,B,True,10.96,CEVAP: B,B,True,11.99,CEVAP: B,B,True,29.75,Revize cevaplarda çoğunluk bulundu.,B,True,33.81,Revize cevaplarda çoğunluk bulundu.,B,100,True,14.61,"GEREKCE: range(3) 0, 1, 2 değerleri üretir. Bu değerlerin karesi sırasıyla 0, 1, 4 olur.  
+CEVAP: B  
+GUVEN: 100",B,100,"GEREKCE: range(3) 0, 1, 2 üretir ve kareleri 0, 1, 4 olur.  
+CEVAP: B  
+GUVEN: 100",B,100,"GEREKCE: range(3) 0, 1, 2 değerleri üretir. Bu değerlerin karesi sırasıyla 0, 1, 4 olur.  
+CEVAP: B  
+GUVEN: 100",A,50,False,5.14,"Gerekçe: List comprehension ile 0'dan 3'e kadar olan sayıların karesi alınır.
+CEVAP: A
+GVNEN: 100",B,50,"--- qwen3:8b ---
+Cevabı:
+GEREKCE: range(3) 0, 1, 2 değerleri üretir. Bu değerlerin karesi sırasıyla 0, 1, 4 olur.
+Çok iyi bir analiz! İlk olarak, `range(3)` fonksiyonu 0'dan 3'e kadar olan sayıları üretmez, aslında 0, 1 ve 2'yi üretir. Ve bu sayıların karelere göre hesaplandığında, sırasıyla 0, 1 ve 4 olur.
+
+Bu nedenle, doğru cevap B) [0,1,4] dir.
+
+--- mistral-nemo:12b ---
+Cevabı:
+GEREKCE: Kodun çıktısı bir liste içindeki elemanlarıdır. Her elemanın karesi alınmıştır.
+Bu analizde de aynı hata var! `range(3)` fonksiyonu 0'dan 3'e kadar olan sayıları üretmez, aslında 0, 1 ve 2'yi üretir.
+
+Ve bu sayıların karelere göre hesaplandığında, sırasıyla 0, 1 ve 4 olur. Bu nedenle, doğru cevap B) [0,1,4] dir.
+
+Sonuç olarak, ilk cevabım yanlış görünüyordu, ama diğer modellerin analizleri de aynı hata içermektedir. Doğru cevap B) [0,1,4] dir.",A,50,"Bu model tartışması/debate turunda, üç modelin bağımsız cevaplarını karşılaştıracağım.
+
+**Model 1 (qwen3:8b)**: Model, range(3) fonksiyonunun 0, 1, 2 değerlerini ürettiğini ve bu değerlerin karesinin sırasıyla 0, 1, 4 olduğunu belirtiyor. Bu nedenle, modelin cevabı B'dir.
+
+**Model 2 (mistral-nemo:12b)**: Model, kodun çıktısının bir liste içindeki elemanların kareleri olduğunu söylüyor. Bu nedenle, modelin cevabı A'dir.
+
+**Model 3 (benim cevapım)**: Benim cevabım, list comprehension ile 0'dan 3'e kadar olan sayıların karesi alınacağını belirtiyor. Bu nedenle, benim cevabım da A'dir.
+
+Çoğunluğa körü körüne uymayacağım ve her modelin açıklamasını değerlendireceğim. Her üç model de farklı bir açıklama sunuyor, ancak kodun çıktısı aynıdır: [0, 1, 4].
+
+Sonuç olarak, en doğru final cevabı A'dir.
+
+**Final Cevap:** A",A,100,False,7.19,"GEREKCE: Kodun çıktısı bir liste içindeki elemanlarıdır. Her elemanın karesi alınmıştır.
+CEVAP: A
+GUVEN: 100",A,100,"GEREKÇE: range(3) fonksiyonu 0'dan başlayarak 3'e kadar olan sayılardan oluşan bir dizi üretir. Bu dizideki her elemanın karesi alınmış ve bu sonuçlar bir liste içinde döndürülmüştür.
+CEVAP: A
+GÜVEN: 100",B,100,"GEREKÇE: range(3) 0, 1 ve 2 değerleri üretir. Bu değerlerin karesi sırasıyla 0, 1 ve 4 olur.
+CEVAP: B
+GÜVEN: 100"

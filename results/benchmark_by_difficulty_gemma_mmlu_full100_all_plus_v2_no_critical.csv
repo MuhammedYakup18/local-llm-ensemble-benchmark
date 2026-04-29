@@ -1,0 +1,23 @@
+﻿difficulty,system,accuracy,question_count
+medium-hard,gemma3:12b,63.0,100
+medium-hard,llama3.1:8b,56.0,100
+medium-hard,mistral-nemo:12b,58.0,100
+medium-hard,Majority Vote,58.0,100
+medium-hard,Confidence Weighted Vote,59.0,100
+medium-hard,Judge on Disagreement,67.0,100
+medium-hard,Judge Always,68.0,100
+medium-hard,Judge Always v2,54.0,100
+medium-hard,Reasoning Judge,63.0,100
+medium-hard,Peer Review Revision,64.0,100
+medium-hard,Debate Revision,59.0,100
+medium-hard,Gemma Final Arbiter,66.0,100
+medium-hard,Gemma Final Arbiter v2,60.0,100
+medium-hard,Gemma Error-Check Revision,59.0,100
+medium-hard,Peer Review + Gemma Final,65.0,100
+medium-hard,Debate + Gemma Final,59.0,100
+medium-hard,Option-wise Verifier,58.0,100
+medium-hard,Adaptive Debate Stop,61.0,100
+medium-hard,Gemma Self-Consistency 3x,68.0,100
+medium-hard,Gemma-Centered Sequential Review,62.0,100
+medium-hard,Coarse Pattern-Best Router,69.0,100
+medium-hard,TriCheck Meta Decision,65.0,100

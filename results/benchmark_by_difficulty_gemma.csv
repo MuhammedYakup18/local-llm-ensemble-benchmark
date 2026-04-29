@@ -1,0 +1,11 @@
+﻿difficulty,system,accuracy,question_count
+medium-hard,gemma3:12b,67.0,100
+medium-hard,llama3.1:8b,54.0,100
+medium-hard,mistral-nemo:12b,51.0,100
+medium-hard,Majority Vote,57.0,100
+medium-hard,Judge on Disagreement,65.0,100
+medium-hard,Judge Always,62.0,100
+medium-hard,Reasoning Judge,65.0,100
+medium-hard,Peer Review Revision,64.0,100
+medium-hard,Debate Revision,61.0,100
+medium-hard,Confidence Weighted Vote,62.0,100

@@ -1,0 +1,11 @@
+﻿category,system,accuracy,question_count
+python,qwen3:8b,100.0,10
+python,llama3.1:8b,70.0,10
+python,mistral-nemo:12b,80.0,10
+python,Majority Vote,90.0,10
+python,Judge on Disagreement,90.0,10
+python,Judge Always,100.0,10
+python,Reasoning Judge,100.0,10
+python,Peer Review Revision,100.0,10
+python,Debate Revision,100.0,10
+python,Confidence Weighted Vote,90.0,10
